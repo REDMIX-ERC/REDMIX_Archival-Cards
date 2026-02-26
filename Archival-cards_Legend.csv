@@ -1,8 +1,0 @@
-"CODE","LEGEND"
-"(L)","A list is present. Use one of the value inserted in the list. Otherwise, add a new value."
-"(|)","This is a repetitive simple field. If you want to insert more than one value, separe the values with a pipe (this symbol  |)."
-"(#)","This is a repetitive complex field. This means that all the information blocks under this complex field can be repeated and the information is linked together.
-If you need to add more information, enter the second block of information in the line below, leaving the fields before and after blank: this way, I will understand that these are fields filled in for the same person."
-"(D)","Format date: YYYY-MM-DD"
-"(N)","Format: Name Surname"
-"(*)","Mandatory field"
