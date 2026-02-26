@@ -1,64 +1,64 @@
-Code;Value
-1;Afrikaans
-2;Albanian
-3;Amharic
-4;Arabic (العربية)
-5;Armenian
-6;Azerbaijani
-7;Bengali (Bangla)
-8;Bulgarian
-9;Burmese
-10;Catalan
-11;Chinese (Mandarin) (中文)
-12;Croatian
-13;Czech
-14;Danish
-15;Dutch
-16;English
-17;Estonian
-18;Farsi (Persian) (فارسی)
-19;Filipino (Tagalog)
-20;Finnish
-21;French (français)
-22;Georgian
-23;German (Deutsch)
-24;Greek (Ελληνικά)
-25;Hebrew (עברית)
-26;Hindi (हिन्दी)
-27;Hungarian
-28;Icelandic
-29;Indonesian (Bahasa Indonesia)
-30;Italian (italiano)
-31;Japanese (日本語)
-32;Korean (한국어)
-33;Kurdish
-34;Lithuanian
-35;Malay (Bahasa Melayu)
-36;Malayalam
-37;Nepali
-38;Norwegian (Norsk)
-39;Pashto
-40;Persian (Farsi) (فارسی)
-41;Polish (polski)
-42;Portuguese (português)
-43;Punjabi (ਪੰਜਾਬੀ)
-44;Romanian (română)
-45;Russian (русский язык)
-46;Serbian (српски језик)
-47;Sinhala (Sinhalese)
-48;Slovak (slovenčina)
-49;Slovenian (slovenščina)
-50;Spanish (español)
-51;Swahili (Kiswahili)
-52;Swedish (svenska)
-53;Tamil (தமிழ்)
-54;Telugu (తెలుగు)
-55;Thai (ไทย)
-56;Tigrinya (ትግርኛ)
-57;Turkish (Türkçe)
-58;Ukrainian (українська мова)
-59;Urdu (اردو)
-60;Uzbek
-61;Vietnamese (Tiếng Việt)
-62;Xhosa
-63;Zulu (isiZulu)
+Code,Value
+00001,Afrikaans
+00002,Albanian
+00003,Amharic
+00004,Arabic (العربية)
+00005,Armenian
+00006,Azerbaijani
+00007,Bengali (Bangla)
+00008,Bulgarian
+00009,Burmese
+00010,Catalan
+00011,Chinese (Mandarin) (中文)
+00012,Croatian
+00013,Czech
+00014,Danish
+00015,Dutch
+00016,English
+00017,Estonian
+00018,Farsi (Persian) (فارسی)
+00019,Filipino (Tagalog)
+00020,Finnish
+00021,French (français)
+00022,Georgian
+00023,German (Deutsch)
+00024,Greek (Ελληνικά)
+00025,Hebrew (עברית)
+00026,Hindi (हिन्दी)
+00027,Hungarian
+00028,Icelandic
+00029,Indonesian (Bahasa Indonesia)
+00030,Italian (italiano)
+00031,Japanese (日本語)
+00032,Korean (한국어)
+00033,Kurdish
+00034,Lithuanian
+00035,Malay (Bahasa Melayu)
+00036,Malayalam
+00037,Nepali
+00038,Norwegian (Norsk)
+00039,Pashto
+00040,Persian (Farsi) (فارسی)
+00041,Polish (polski)
+00042,Portuguese (português)
+00043,Punjabi (ਪੰਜਾਬੀ)
+00044,Romanian (română)
+00045,Russian (русский язык)
+00046,Serbian (српски језик)
+00047,Sinhala (Sinhalese)
+00048,Slovak (slovenčina)
+00049,Slovenian (slovenščina)
+00050,Spanish (español)
+00051,Swahili (Kiswahili)
+00052,Swedish (svenska)
+00053,Tamil (தமிழ்)
+00054,Telugu (తెలుగు)
+00055,Thai (ไทย)
+00056,Tigrinya (ትግርኛ)
+00057,Turkish (Türkçe)
+00058,Ukrainian (українська мова)
+00059,Urdu (اردو)
+00060,Uzbek
+00061,Vietnamese (Tiếng Việt)
+00062,Xhosa
+00063,Zulu (isiZulu)
