@@ -1,0 +1,62 @@
+Code,Name field (ITA),Name field (ENG),STD ref (ISAAR (CPF)),Repetitive field,Dimension,Type,Vocabulary,Mandatory,Description
+TSK,Tipo scheda,Catalogue card type,,,5,N,,,Catalogue Card CR = Creator
+IDK,Codice univoco,Identification code,5.1.6,,30,T,,Obl.,Code that uniquely identifies a creator.
+VSV,Visibile (pubblicabile online),Visibility (online),,,1,T,Yes / No,Obl.,Check the visibility online.
+ENT,Tipologia entità,Type of entity,5.1.1,,100,T,VOC_CR_ENT,Obl.,"To indicate whether the entity being described is a corporate body, person or family."
+APP,Denominazione,Appellation,,,,,,,
+APA,Denominazione,Appellation,5.1.2,,255,T,,Obl.,"Appellation of the creator. If it is a person, please indicate in this way: Surname, Name"
+APK,Codice Identificativo,Identification code,,,30,T,,,"If it is a person for whom we have the PE catalogue card, enter the corresponding identification code."
+APF,Forme parallele della denominazione,Parallel forms of appellation,5.1.3,Rep.,,,,,To indicate the various forms in which the Authorized form of name occurs in other languages or scriptform(s).
+APFS,Denominazione,Appellation,5.1.3,,255,T,,,
+APFL,Lingua,Language,5.1.3,,255,T,VOC_LANGUAGE,,
+CHR,Estremi cronologici,Chronological details,,,,,,,
+DOB,Estremo cronologico remoto,From,5.2.1,,10,D,,,Format date: YYYY-MM-DD
+DOS,Specifiche estremo remoto,Details,5.2.1,,100,T,,,"Information that completes the date. If the date is uncertain, enter (?)."
+DOD,Estremo cronologico recente,To,5.2.1,,10,D,,,Format date: YYYY-MM-DD
+DOT,Specifiche estremo recente,Details,5.2.1,,100,T,,,"Information that completes the date. If the date is uncertain, enter (?)."
+DOE,Epoca/Periodo,Epoch/Period,5.2.1,,255,T,VOC_DOE,,Identifies a well-defined historical period (e.g. ‘Renaissance’).
+PLC,Luoghi,Places,5.2.3,Rep.,,,,,"Places that may be of significance to the producer, such as the place where an institution was founded."
+PLCS,Descrizione,Description,5.2.3,,255,T,,,
+PLCP,Luogo,Place,5.2.3,,255,T,,,
+PLCA,Latitudine,Latitude,5.2.3,,100,T,,,
+PLCO,Longitudine,Longitude,5.2.3,,100,T,,,
+PLCI,Indirizzo completo,Complete address,5.2.3,,255,T,,,
+INF,Informazioni generali,General information,,,,,,,
+HIS,Storia,History,5.2.2,,longtext,T,,,"To provide a concise history of the corporate body, person or family."
+FOA,"Funzioni, occupazioni e attività","Functions, occupations and activities",5.2.5,,500,T,,,"To indicate the functions, occupations and activities performed by the corporate body, person or family."
+ISG,Struttura amministrativa/Genealogia,Internal structures/Genealogy,5.2.7,,500,T,,,To describe and/or represent the internal administrative structure(s) of a corporate body or the genealogy of a family.
+GEC,Contesto generale,General context,5.2.8,,500,T,,,"To provide significant information on the general social, cultural, economic, political and/or historical context in which the corporate body, person or family operated, lived or was active."
+DOA,Altre date,Other dates,5.2.1,Rep.,,,,,
+DOAS,Descrizione,Description,5.2.1,,300,T,,,
+DOAD,Data,Date,5.2.1,,10,D,,,Format date: YYYY-MM-DD
+POA,Altri luoghi,Other places,5.2.3,Rep.,,,,,
+POAS,Descrizione,Description,5.2.3,,255,T,,,
+POAP,Luogo,Place,5.2.3,,255,T,,,
+POAA,Latitudine,Latitude,5.2.3,,100,T,,,
+POAO,Longitudine,Longitude,5.2.3,,100,T,,,
+POAI,Indirizzo completo,Complete address,5.2.3,,255,T,,,
+BIB,Bibliografia,Bibliography,5.4.8,Rep.,,,,,
+BIBD,Descrizione,Description,5.4.8,,255,T,,,
+BIBL,Link,Link,5.4.8,,500,T,,,
+LNK,Altri link,Other links,,Rep.,,,,,
+LNKD,Descrizione,Description,,,255,T,,,
+LNKL,Link,Link,,,500,T,,,
+CMZ,Compilazione,Data entry,5.4.6,,,,,,
+CMZD,Data,Date,5.4.6,,10,D,,,Format date: YYYY-MM-DD
+CMZN,Nome utente,User's name,5.4.6,,255,T,,,"Format: Surname, Name"
+CMZC,Codice utente,User's code,5.4.6,,30,T,,,Not already available
+AGR,Ultimo aggiornamento,Last update,5.4.6,,,,,,
+AGRD,Data,Date,5.4.6,,10,D,,,Format date: YYYY-MM-DD
+AGRN,Nome utente,User's name,5.4.6,,255,T,,,"Format: Surname, Name"
+AGRC,Codice utente,User's code,5.4.6,,30,T,,,Not already available
+OSS,Appunti,General notes,5.4.9,,500,T,,,
+,,,,,,,,,
+DOC,Allegati,Attachments,,Rep.,,,,,"Area where you can attach related documentation, such as personal Identity Card or photos."
+DOCN,Titolo,Title,,,255,T,,,
+DOCD,Descrizione,Description,,,500,T,,,
+DOCL,Caricamento,Loading,,,,,,,
+,,,,,,,,,
+COR,Entità correlate,Related entities,,Rep.,,,,,"To link other entities to this catalogue card, such as resource's catalogue cards."
+CORT,Tipo scheda,Catalogue card type,,,5,T,,,
+CORK,Codice identificativo entità,Entity identification code,,,30,T,,,
+CORD,Descrizione relazione,Relation description,,,500,T,,,
