@@ -9,17 +9,17 @@ TIT;Titolo;Title;3.1.2;;255;T;;Obl.;To name the unit of description.
 TIP;Forme parallele del titolo;Parallel forms of title;3.1.2;Rep.;;;;;To indicate the various forms in which the title occurs in other languages or script form(s).
 TIPP;Titolo parallelo;Parallel title;3.1.2;;255;T;;;
 TIPL;Lingua;Language;3.1.2;;255;T;VOC_LANGUAGE;;
-CRE;Soggetto produttore;Creator;3.2.1;Rep.;30;T;;;"Link to the corresponding ""Creator"" card."
-REC;Segnatura;Reference code;3.1.1;;255;T;;;The specific local reference code, control number, or other unique identifier.
+CRE;Soggetto produttore;Creator;3.2.1;Rep.;30;T;;;Link to the corresponding 'Creator' card.
+REC;Segnatura;Reference code;3.1.1;;255;T;;;The specific local reference code control number or other unique identifier.
 QNT;Consistenza;Quantity;3.1.5;;500;T;;;To identify and describe the physical or logical extent of the unit of description.
-IND;Lingua/scrittura della documentazione;Language/script of material;3.4.3;Rep.;;;;;To identify the language(s), script(s) and symbol systems employed in the unit of description.
+IND;Lingua/scrittura della documentazione;Language/script of material;3.4.3;Rep.;;;;;To identify the language(s) script(s) and symbol systems employed in the unit of description.
 INDL;Lingua;Language;3.4.3;;50;T;VOC_LANGUAGE;;
 INDS;Scrittura;Script;3.4.3;;50;T;VOC_SCRIPT;;
 CHR;Estremi cronologici;Chronological details;3.1.3;;;;;;
 DOB;Estremo cronologico remoto;From;3.1.3;;10;D;;;Format date: YYYY-MM-DD
-DOS;Specifiche estremo remoto;Details;3.1.3;;100;T;;;Information that completes the date. If the date is uncertain, enter (?).
+DOS;Specifiche estremo remoto;Details;3.1.3;;100;T;;;Information that completes the date. If the date is uncertain enter (?).
 DOD;Estremo cronologico recente;To;3.1.3;;10;D;;;Format date: YYYY-MM-DD
-DOT;Specifiche estremo recente;Details;3.1.3;;100;T;;;Information that completes the date. If the date is uncertain, enter (?).
+DOT;Specifiche estremo recente;Details;3.1.3;;100;T;;;Information that completes the date. If the date is uncertain enter (?).
 DOE;Epoca/Periodo;Epoch/Period;3.1.3;;255;T;VOC_DOE;;Identifies a well-defined historical period (e.g. ‘Renaissance’).
 HOL;Soggetto conservatore;Holding institution;3.5.1;;;;;;
 HON;Denominazione;Name;3.5.1;;255;T;;;
@@ -28,7 +28,7 @@ HOP;Collocazione;Placement;3.5.1;;255;T;;;
 RED;Descrizione documentazione;Documentation description;;;;;;;
 REF;Fondo di appartenenza;Fond;3.5.3;;255;T;;;Link to the fond to which this resource belongs. Do NOT fill in if the level you are describing is already a fond.
 REL;Livello archivistico superiore ;Higher archival level;3.5.3;;255;T;;;Link to the higher-level archival unit to which this resource belongs. Do NOT fill in if the level you are describing is already the top/highest level.
-HIS;Storia archivistica;Archival history;3.2.3;;longtext;T;;;To provide information on the history of the unit of description that is significant for its authenticity, integrity and interpretation.
+HIS;Storia archivistica;Archival history;3.2.3;;longtext;T;;;To provide information on the history of the unit of description that is significant for its authenticity integrity and interpretation.
 REG;Descrizione generale;General description;3.3.1;;longtext;T;;;General description to enable users to assess the potential relevance of the unit of description.
 REP;Descrizione fisica;Physical description;3.4.4;;500;T;;;"To provide information about any important physical characteristics or technical 
 requirements that affect use of the unit of description."
@@ -60,21 +60,21 @@ BIBD;Descrizione;Description;3.5.4;;255;T;;;
 BIBL;Link;Link;3.5.4;;500;T;;;
 CMZ;Compilazione;Data entry;3.7.3;;;;;;To indicate when this description was prepared.
 CMZD;Data;Date;3.7.3;;10;D;;;Format date: YYYY-MM-DD
-CMZN;Nome utente;User's name;3.7.3;;255;T;;;Format: Surname, Name
+CMZN;Nome utente;User's name;3.7.3;;255;T;;;Format: Surname Name
 CMZC;Codice utente;User's code;3.7.3;;30;T;;;Not already available
 AGR;Ultimo aggiornamento;Last update;3.7.3;;;;;;To indicate when this description was modified.
 AGRD;Data;Date;3.7.3;;10;D;;;Format date: YYYY-MM-DD
-AGRN;Nome utente;User's name;3.7.3;;255;T;;;Format: Surname, Name
+AGRN;Nome utente;User's name;3.7.3;;255;T;;;Format: Surname Name
 AGRC;Codice utente;User's code;3.7.3;;30;T;;;Not already available
 OSS;Appunti;General notes;3.6.1;;500;T;;;To provide information that cannot be accommodated in any of the other areas.
 OSN;Note dell'archivista;Archivist’s note;3.7.1;;500;T;;;To explain how the description was prepared and by whom.
 ;;;;;;;;;
-DOC;Allegati;Attachments;;Rep.;;;;;Area where you can attach related documentation, such as material's digital copies.
+DOC;Allegati;Attachments;;Rep.;;;;;Area where you can attach related documentation such as material's digital copies.
 DOCN;Titolo;Title;;;255;T;;;
 DOCD;Descrizione;Description;;;500;T;;;
 DOCL;Caricamento;Loading;;;;;;;
 ;;;;;;;;;
-COR;Entità correlate;Related entities;3.5.3;Rep.;;;;;To link other entities to this catalogue card, such as catalogue cards for people.
+COR;Entità correlate;Related entities;3.5.3;Rep.;;;;;To link other entities to this catalogue card such as catalogue cards for people.
 CORT;Tipo scheda;Catalogue card type;3.5.3;;5;T;;;
 CORK;Codice identificativo entità;Entity identification code;3.5.3;;30;T;;;
 CORD;Descrizione relazione;Relation description;3.5.3;;500;T;;;
