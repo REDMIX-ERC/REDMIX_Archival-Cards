@@ -1,0 +1,22 @@
+Code,Value
+BM,Biological mother
+BF,Biological father
+NM,Non-biological mother
+NF,Non-biological father
+SI,Sister
+BR,Brother
+BX,Biological maternal grandmother
+BY,Biological maternal grandfather
+BJ,Biological paternal grandmother
+BK,Biological paternal grandfather
+NX,Non-biological maternal grandmother
+NY,Non-biological maternal grandfather
+NJ,Non-biological paternal grandmother
+NK,Non-biological paternal grandfather
+LG,Legal guardian
+ML,Mother-in-law
+FL,Father-in-law
+SL,Sister-in-law
+BL,Brother-in-law
+AU,Aunt
+UN,Uncle

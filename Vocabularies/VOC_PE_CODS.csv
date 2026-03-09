@@ -1,0 +1,17 @@
+Code,Value,Description
+V,VIAF,
+I,ISNI,
+W,Wikidata QID,
+O,ORCID,
+G,GND,Integrated Authority File (Gemeinsame Normdatei)
+L,LCCN,Library of Congress Control Number
+B,BNF,Bibliothèque nationale de France Identifier
+N,NLA,National Library of Australia Identifier
+S,SELIBR,National Library of Sweden Authority File
+K,NKC,National Library of the Czech Republic Authority File
+Z,SBN,Servizio Bibliotecario Nazionale
+E,BNE,Biblioteca Nacional de España Identifier
+P,PTBNP,Biblioteca Nacional de Portugal Identifier
+R,ResearcherID,
+A,Scopus Author ID,
+U,ULAN,Union List of Artist Names

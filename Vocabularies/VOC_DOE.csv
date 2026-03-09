@@ -1,0 +1,31 @@
+Code,Value eng,Value ita
+1,Ancient Era,Epoca antica
+2,Classical Antiquity,Antichità classica
+3,Middle Ages / Medieval Era,Medioevo
+4,Ottoman Era,Epoca ottomana
+5,Pre-colonial Era,Epoca pre-coloniale
+6,Colonial Era,Epoca coloniale
+7,Post-colonial Era,Epoca post-coloniale
+8,Italian Colonial Period (in Eritrea/Somalia),Periodo coloniale italiano (in Eritrea/Somalia)
+9,British Colonial Period (in Egypt/Sudan),Periodo coloniale britannico (in Egitto/Sudan)
+10,French Colonial Period (in Djibouti),Periodo coloniale francese (a Gibuti)
+11,Pre-Federation Era (pre-1952),Epoca pre-federale (pre-1952)
+12,"Federation Era (Ethiopia-Eritrea, 1952-1962)","Epoca della federazione (Etiopia-Eritrea, 1952-1962)"
+13,Imperial Era (Ethiopian Empire),Epoca imperiale (Impero d'Etiopia)
+14,"Derg Era (Ethiopia, 1974-1987)","Epoca del Derg (Etiopia, 1974-1987)"
+15,Post-Derg / Transitional Era,Epoca post-Derg / di transizione
+16,Independence Era (post-1991 for Eritrea),Epoca dell'indipendenza (post-1991 per l'Eritrea)
+17,Cold War Era,Epoca della Guerra Fredda
+18,Post-Cold War Era,Epoca post-Guerra Fredda
+19,Modern Era / Contemporary Era,Epoca moderna / contemporanea
+20,Pre-unification Era,Epoca pre-unitaria
+21,Post-unification Era,Epoca post-unitaria
+22,Pre-revolutionary Era,Epoca pre-rivoluzionaria
+23,Post-revolutionary Era,Epoca post-rivoluzionaria
+24,Monarchical Era,Epoca monarchica
+25,Republican Era,Epoca repubblicana
+26,Pre-industrial Era,Epoca pre-industriale
+27,Industrial Era,Epoca industriale
+28,Digital Era,Epoca digitale
+29,Pre-war Era (pre-WWII),Epoca pre-bellica (pre-Seconda Guerra Mondiale)
+30,Post-war Era (post-WWII),Epoca post-bellica (post-Seconda Guerra Mondiale)

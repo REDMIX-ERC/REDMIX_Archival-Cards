@@ -1,0 +1,17 @@
+Code,Value eng,Value ita
+C,Country,Stato
+R,Region,Regione
+T,Territorial public body,Ente pubblico territoriale
+L,Functional territorial body,Ente funzionale territoriale
+E,Economic body/enterprise,Ente economico/impresa
+I,"Credit, insurance, social security institution","Ente di credito, assicurativo, previdenziale"
+A,Charity and assistance organisation,Ente di assistenza e beneficenza
+H,Health organisation,Ente Sanitario
+B,Education and research organisation,Ente di Istruzione e ricerca
+S,"Cultural, recreational, sports, tourist organisation","Ente di cultura, ricreativo, sportivo, turistico"
+U,"Political party, trade union organisation","Partito politico, organizzazione sindacale"
+G,"Professional body, professional association","Ordine professionale, associazione di categoria"
+D,Catholic Church body and association,Ente e associazione della chiesa cattolica
+N,Non-Catholic cult organisation and association,Ente e associazione di culto acattolico
+P,Person,Persona
+F,Family,Famiglia
