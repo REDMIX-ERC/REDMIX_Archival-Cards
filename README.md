@@ -25,7 +25,7 @@ REDMIX_Archival-Cards/
 
 ## The Five Archival Cards
 
-The REDMIX metadata schema is built upon five distinct cataloguing cards:
+The REDMIX metadata schema is built upon five distinct cataloguing cards:  
 
 | Card | Acronym | Description |
 |------|---------|-------------|
