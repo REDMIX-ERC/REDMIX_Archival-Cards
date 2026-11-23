@@ -1,17 +1,19 @@
-Code,Value eng,Value ita
-C,Country,Stato
-R,Region,Regione
-T,Territorial public body,Ente pubblico territoriale
-L,Functional territorial body,Ente funzionale territoriale
-E,Economic body/enterprise,Ente economico/impresa
-I,"Credit, insurance, social security institution","Ente di credito, assicurativo, previdenziale"
-A,Charity and assistance organisation,Ente di assistenza e beneficenza
-H,Health organisation,Ente Sanitario
-B,Education and research organisation,Ente di Istruzione e ricerca
-S,"Cultural, recreational, sports, tourist organisation","Ente di cultura, ricreativo, sportivo, turistico"
-U,"Political party, trade union organisation","Partito politico, organizzazione sindacale"
-G,"Professional body, professional association","Ordine professionale, associazione di categoria"
-D,Catholic Church body and association,Ente e associazione della chiesa cattolica
-N,Non-Catholic cult organisation and association,Ente e associazione di culto acattolico
-P,Person,Persona
-F,Family,Famiglia
+Code;Value eng;Value ita
+1;Country;Stato
+2;Region;Regione
+3;Territorial public body;Ente pubblico territoriale
+4;Functional territorial body;Ente funzionale territoriale
+5;Economic body/enterprise;Ente economico/impresa
+6;Credit, insurance, social security institution;Ente di credito, assicurativo, previdenziale
+7;Charity and assistance organisation;Ente di assistenza e beneficenza
+8;Health organisation;Ente Sanitario
+9;Education and research organisation;Ente di Istruzione e ricerca
+10;Cultural, recreational, sports, tourist organisation;Ente di cultura, ricreativo, sportivo, turistico
+11;Political party, trade union organisation;Partito politico, organizzazione sindacale
+12;Professional body, professional association;Ordine professionale, associazione di categoria
+13;Catholic Church body and association;Ente e associazione della chiesa cattolica
+14;Non-Catholic cult organisation and association;Ente e associazione di culto acattolico
+15;Person;Persona
+16;Family;Famiglia
+17;Non-territorial public body;Ente pubblico non territorialeù
+18;Military Institution;Istituzione militare

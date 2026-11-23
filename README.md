@@ -8,24 +8,30 @@
 
 This repository contains the metadata schemas and controlled vocabularies developed for the REDMIX digital archive. The schemas are designed to describe five core entities within the archival domain: archival levels, archival resources, creators, holding institutions, and persons. They are grounded in international standards (ISAD(G), ISAAR(CPF), ISDIAH) and tailored to the specific research needs of the REDMIX project, which investigates mixed-ancestry communities in the Red Sea region between the 1800s and 2000s.
 
+The repository also includes a **field-by-field crosswalk** that maps each field of the five cards onto the corresponding element of the ICA standards (ISAD(G), ISAAR(CPF), ISDIAH), the British Museum Material Culture Ethnography Metadata Schema, and RiC-CM (Records in Contexts – Conceptual Model). The crosswalk complements the card-level mapping presented in the REDMIX project publications and provides the granular mapping that substantiates the standards-based interoperability of the schema.
+
 ## Repository Structure
 
 ```
 REDMIX_Archival-Cards/
 │
 ├── Archival cards/
-│   └── archival_cards.csv                      # Machine-readable metadata schemas for all five cards (CSV format)
+│ └── [archival_cards].csv # Machine-readable metadata schemas for all five cards (CSV format)
+│
+├── Crosswalk/
+│ └── Crosswalk_std.csv # Field-by-field crosswalk to ICA standards, BM Schema, and RiC-CM (CSV format)
 │
 ├── Vocabularies/
-│   └── [vocabulary_files].csv                   # Controlled vocabularies for specific fields (CSV format)
+│ └── [vocabulary_files].csv # Controlled vocabularies for specific fields (CSV format)
 │
-├── LICENSE.md                                    # CC-BY-4.0 license
-└── README.md                                     # This file
+├── LICENSE.md # CC-BY-4.0 license
+└── README.md # This file
 ```
+
 
 ## The Five Archival Cards
 
-The REDMIX metadata schema is built upon five distinct cataloguing cards:  
+The REDMIX metadata schema is built upon five distinct cataloguing cards:
 
 | Card | Acronym | Description |
 |------|---------|-------------|
@@ -43,19 +49,33 @@ The schemas are aligned with the following international standards:
 - **ISAAR(CPF)** – International Standard Archival Authority Records for Corporate Bodies, Persons and Families (for CR and PE cards)
 - **ISDIAH** – International Standard for Describing Institutions with Archival Holdings (for HO cards)
 - **British Museum Material Culture Ethnography Metadata Schema** – for ethnographic description (PE card)
+- **RiC-CM** – Records in Contexts – Conceptual Model, version 1.0 (for the relational mapping of all five cards)
+
+## The Crosswalk
+
+The file `Crosswalk/Crosswalk_std.csv` provides a field-by-field mapping of the five cards onto:
+
+1. The **ICA standards** (ISAD(G), ISAAR(CPF), ISDIAH), with the numerical reference of the corresponding descriptive element.
+2. The **British Museum Material Culture Ethnography Metadata Schema** (only for the PE card, which combines ISAAR(CPF) and the BM Schema).
+3. The **RiC-CM entities and attributes** (Records in Contexts – Conceptual Model, version 1.0).
+
+The crosswalk complements Table 1 of the REDMIX project publications, which maps the five cards onto RiC-CM entities and ICA standards **at the level of cards**. The crosswalk provides the same mapping **at the level of individual fields**.
+
+For a full description of the crosswalk structure and conventions, see the dedicated section in this README.
 
 ## File Formats
 
 ### CSV Files (Machine-readable)
-The `archival_cards.csv` file and vocabulary files are provided in CSV format for easy integration with databases, parsing scripts, and data processing workflows. Each field is defined according to the parameters described in the REDMIX project publications.
+The `archival_cards.csv` file, the `Crosswalk/Crosswalk_std.csv` file, and the vocabulary files are provided in CSV format for easy integration with databases, parsing scripts, and data processing workflows. Each field is defined according to the parameters described in the REDMIX project publications.
 
 ### XLSX Files (Human-readable)
 For enhanced readability with color coding and formatting, human-readable versions of the metadata schemas are available at the following links:
 - `AL Card – Archival Levels*`: [Link](https://docs.google.com/spreadsheets/d/1THmn-YyWimjLt3A9GzDrDqkLnrtT3Ljb/edit?usp=sharing&ouid=112165026692624440677&rtpof=true&sd=true)
 - `AR Card – Archival Resource*`: [Link](https://docs.google.com/spreadsheets/d/1DGmvUvNPbsgTtOwzQE0zhMSWtVZmzS4h/edit?usp=sharing&ouid=112165026692624440677&rtpof=true&sd=true)
-- `CR Card – Creator*`: [Link](https://docs.google.com/spreadsheets/d/1FAh5tOIz33ZfG5tF_lLbzfRkWc8r_yX_/edit?usp=sharing&ouid=112165026692624440677&rtpof=true&sd=true) 
+- `CR Card – Creator*`: [Link](https://docs.google.com/spreadsheets/d/1FAh5tOIz33ZfG5tF_lLbzfRkWc8r_yX_/edit?usp=sharing&ouid=112165026692624440677&rtpof=true&sd=true)
 - `HO Card – Holding Institution*`: [Link](https://docs.google.com/spreadsheets/d/1wR569MAAmBR8Ibpn1a4yEceNgxt4bplo/edit?usp=sharing&ouid=112165026692624440677&rtpof=true&sd=true)
 - `PE Card – Person*`: [Link](https://docs.google.com/spreadsheets/d/1kKZYwFCLb4pHj-W6alU9JrVE6IH-Extg/edit?usp=sharing&ouid=112165026692624440677&rtpof=true&sd=true)
+
 These files maintain the same structure as the CSV versions but offer improved visual navigation for cataloguers and researchers.
 
 ## Vocabularies
@@ -64,7 +84,7 @@ The `Vocabularies/` folder contains controlled vocabularies developed for specif
 - `VOC_AL_*` – Vocabularies used exclusively in the AL card
 - `VOC_AR_*` – Vocabularies used exclusively in the AR card
 - `VOC_CR_*` – Vocabularies used exclusively in the CR card
-- `VOC_HO_*` – Vocabularies used exclusively in the HO card 
+- `VOC_HO_*` – Vocabularies used exclusively in the HO card
 - `VOC_PE_*` – Vocabularies used exclusively in the PE card
 - Shared vocabularies (e.g., `VOC_LANGUAGE`) are used across multiple cards
 
@@ -74,18 +94,18 @@ This work is licensed under a **Creative Commons Attribution 4.0 International L
 
 ## How to Cite
 
-If you use these metadata schemas in your research, please cite:
+If you use these metadata schemas or the crosswalk in your research, please cite:
 
-> Pasciuto, Tiziana & Talamini, Stefano. (2026). REDMIX Archival Cards: Metadata Schemas for the REDMIX Digital Archive (Version 1.0) [Data set]. GitHub. https://github.com/TizianaPascuito/REDMIX_Archival-Cards
+> Pasciuto, Tiziana, and Stefano Talamini. 2026. *REDMIX Archival Cards: Metadata Schemas for the REDMIX Digital Archive* (Version 1.0.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18935516.
 
 ## Contact
 
 For questions, feedback, or collaboration inquiries:
 
-- **Tiziana Pasciuto**: tiziana.pasciuto@unito.it  
-- **Stefano Talamini**: stefano.talamini@unito.it  
+- **Tiziana Pasciuto**: tiziana.pasciuto@unito.it
+- **Stefano Talamini**: stefano.talamini@unito.it
 
-University of Turin  
+University of Turin
 ERC CoG 2023 Project REDMIX
 
 ## Funding
@@ -94,4 +114,4 @@ Funded by the European Union. Views and opinions expressed are however those of 
 
 ---
 
-**Last updated:** July 2026
+**Last updated:** November 2026

@@ -1,63 +1,73 @@
-Code,Value eng,Value ita
-1,Account books,Libri contabili / Registri
-2,"Albums (photograph, autograph, scrapbook)","Album (fotografici, di autografi, ritagli)"
-3,Architectural drawings,Disegni architettonici
-4,Artifacts (three-dimensional objects),Manufatti / Oggetti tridimensionali
-5,Audio cassettes,Audiocassette
-6,Blueprints,Cianografie / Blueprint
-7,"Broadsides (posters, announcements)","Fogli volanti (manifesti, avvisi)"
-8,"Certificates (birth, death, marriage)","Certificati (nascita, morte, matrimonio)"
-9,Certificates (stock and bond),"Certificati (azionari, obbligazionari)"
-10,Charts,Carte nautiche / Grafici / Tabelle
-11,Coins and medals,Monete e medaglie
-12,Compact discs,Compact disc (CD)
-13,Correspondence (letters),Corrispondenza (lettere)
-14,Daguerreotypes,Dagherrotipi
-15,Diaries and journals,Diari e giornali intimi
-16,Digital files (born-digital),File digitali (nati digitali)
-17,"Documents (administrative, legal, financial)","Documenti (amministrativi, legali, finanziari)"
-18,Drawings,Disegni
-19,"Ephemera (tickets, flyers, programs)","Effimera / Materiale effimero (biglietti, volantini, programmi)"
-20,Films (motion picture),Film (pellicole cinematografiche)
-21,"Financial records (ledgers, receipts)","Registri finanziari (libri mastri, ricevute)"
-22,Floppy disks,Floppy disk / Dischetti
-23,Glass plate negatives,Lastre fotografiche negative
-24,Index cards,Schede / Schede di catalogo
-25,Ledgers,Libri mastri
-26,"Legal documents (deeds, contracts, wills)","Atti legali (rogiti, contratti, testamenti)"
-27,Logbooks,Giornali di bordo / Registri
-28,Magnetic tapes,Nastri magnetici
-29,Manuscripts (unpublished writings),Manoscritti (scritti inediti)
-30,Maps,Mappe / Carte geografiche
-31,Memoirs,Memorie
-32,Memoranda,Memorandum / Appunti
-33,Microfiche,Microfiche / Schede di microfilm
-34,Microfilm,Microfilm
-35,Minutes (meeting records),Verbali (di riunioni)
-36,Newspapers,Giornali
-37,Notebooks,Taccuini / Quaderni
-38,Notes (handwritten),Appunti (manoscritti)
-39,Paintings,Dipinti
-40,Pamphlets,Opuscoli / Brochure
-41,Patent records,Brevetti
-42,Photocopies,Fotocopie
-43,Photographs (prints),Fotografie (stampe)
-44,Photograph albums,Album fotografici
-45,Photographic negatives,Negativi fotografici
-46,"Photographic positives (slides, transparencies)","Positivi fotografici (diapositive, trasparenti)"
-47,Plans,Piante / Planimetrie
-48,Posters,Poster / Manifesti
-49,Postcards,Cartoline
-50,Prints (artistic),Stampe (artistiche)
-51,Prospectuses,Prospetti informativi
-52,Reports,Rapporti / Relazioni
-53,Scrapbooks,Album di ritagli
-54,Seals and stamps,Sigilli e timbri
-55,Slides (35mm),Diapositive (35mm)
-56,"Sound recordings (wax cylinders, vinyl records)","Registrazioni sonore (cilindri di cera, dischi in vinile)"
-57,Speeches,Discorsi
-58,Spreadsheets,Fogli di calcolo
-59,Telegrams,Telegrammi
-60,"Video cassettes (VHS, Betamax)","Videocassette (VHS, Betamax)"
-61,Video recordings (digital),Registrazioni video (digitali)
-62,"Vital records (birth, death, marriage certificates)","Registri di stato civile (certificati di nascita, morte, matrimonio)"
+Code;Value eng;Value ita
+1;Account books;Libri contabili / Registri
+2;Albums (photograph, autograph, scrapbook);Album (fotografici, di autografi, ritagli)
+3;Architectural drawings;Disegni architettonici
+4;Artifacts (three-dimensional objects);Manufatti / Oggetti tridimensionali
+5;Audio cassettes;Audiocassette
+6;Books (published);Libri (pubblicati)
+7;Blueprints;Cianografie / Blueprint
+8;Broadsides (posters, announcements);Fogli volanti (manifesti, avvisi)
+9;Catalogues and inventories;Cataloghi e inventari
+10;Certificates (birth, death, marriage);Certificati (nascita, morte, matrimonio)
+11;Certificates (stock and bond);Certificati (azionari, obbligazionari)
+12;Charts;Carte nautiche / Grafici / Tabelle
+13;Coins and medals;Monete e medaglie
+14;Compact discs;Compact disc (CD)
+15;Correspondence (letters);Corrispondenza (lettere)
+16;Daguerreotypes;Dagherrotipi
+17;Diaries and journals;Diari e giornali intimi
+18;Digital files (born-digital);File digitali (nati digitali)
+19;Documents (administrative, legal, financial);Documenti (amministrativi, legali, finanziari)
+20;Drawings;Disegni
+21;Ephemera (tickets, flyers, programs);Effimera / Materiale effimero (biglietti, volantini, programmi)
+22;Envelopes;Buste di lettera
+23;Family trees;Alberi genealogici
+24;Films (motion picture);Film (pellicole cinematografiche)
+25;Financial records (ledgers, receipts);Registri finanziari (libri mastri, ricevute)
+26;Floppy disks;Floppy disk / Dischetti
+27;Glass plate negatives;Lastre fotografiche negative
+28;Index cards;Schede / Schede di catalogo
+29;Ledgers;Libri mastri
+30;Legal documents (deeds, contracts, wills);Atti legali (rogiti, contratti, testamenti)
+31;Logbooks;Giornali di bordo / Registri
+32;Magnetic tapes;Nastri magnetici
+33;Manuscripts (unpublished writings);Manoscritti (scritti inediti)
+34;Maps;Mappe / Carte geografiche
+35;Memoirs;Memorie
+36;Memoranda;Memorandum / Appunti
+37;Microfiche;Microfiche / Schede di microfilm
+38;Microfilm;Microfilm
+39;Minutes (correspondence);Minute (lettere)
+40;Minutes (meeting records);Verbali (di riunioni)
+41;Newspapers;Giornali
+42;Notebooks;Taccuini / Quaderni
+43;Notes (handwritten);Appunti (manoscritti)
+44;Paintings;Dipinti
+45;Pamphlets;Opuscoli / Brochure
+46;Patent records;Brevetti
+47;Periodicals;Periodici
+48;Photocopies;Fotocopie
+49;Photographs (prints);Fotografie (stampe)
+50;Photograph albums;Album fotografici
+51;Photographic negatives;Negativi fotografici
+52;Photographic positives (slides, transparencies);Positivi fotografici (diapositive, trasparenti)
+53;Plans;Piante / Planimetrie
+54;Posters;Poster / Manifesti
+55;Postcards;Cartoline
+56;Prints (artistic);Stampe (artistiche)
+57;Prospectuses;Prospetti informativi
+58;Reports;Rapporti / Relazioni
+59;Scrapbooks;Album di ritagli
+60;Seals and stamps;Sigilli e timbri
+61;Slides (35mm);Diapositive (35mm)
+62;Songs and poems;Canzoni e poesie
+63;Songs and poems (transcriptions of);Canzoni e poesie (trascrizioni di)
+64;Sound recordings (wax cylinders, vinyl records, phonograms);Registrazioni sonore (cilindri di cera, dischi in vinile, fonogrammi)
+65;Sound recordings (transcriptions of);Registrazioni sonore (trascrizioni di)
+66;Speeches;Discorsi
+67;Spreadsheets;Fogli di calcolo
+68;Telegrams;Telegrammi
+69;Thesis;Tesi
+70;Video cassettes (VHS, Betamax);Videocassette (VHS, Betamax)
+71;Video recordings (digital);Registrazioni video (digitali)
+72;Vital records (birth, death, marriage certificates);Registri di stato civile (certificati di nascita, morte, matrimonio)
