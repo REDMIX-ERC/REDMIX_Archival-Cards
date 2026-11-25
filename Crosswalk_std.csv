@@ -1,339 +1,339 @@
-Card;Code;Name (ITA);Name (ENG);STD ref (ICA);STD ref (BM);Repetitive;Mandatory;RiC-CM entity/attribute;Notes
-AL;TSK;Tipo scheda;Catalogue card type;;;;;;Technical field 
-AL;IDK;Codice univoco;Identification code;ISAD(G) ñ 3.1.1;;;Obl.;Record Set ñ identifier;
-AL;VSV;Visibile (pubblicabile online);Visibility (online);;;;Obl.;;Technical field
-AL;INF;Informazioni generali;General information;;;;;;Section (header)
-AL;LDD;Livello di descrizione;Level of description;ISAD(G) ñ 3.1.4;;;Obl.;Record Set ñ recordSetType;
-AL;TIT;Titolo;Title;ISAD(G) ñ 3.1.2;;;Obl.;Record Set ñ title;
-AL;TIP;Forme parallele del titolo;Parallel forms of title;ISAD(G) ñ 3.1.2;;Rep.;;Record Set ñ title (parallel);
-AL;TIPP;Titolo parallelo;Parallel title;ISAD(G) ñ 3.1.2;;;;Record Set ñ title (parallel);
-AL;TIPL;Lingua;Language;ISAD(G) ñ 3.1.2;;;;Record Set ñ language;
-AL;CRE;Soggetto produttore;Creator;ISAD(G) ñ 3.2.1;;Rep.;;Record Set ñ hasCreator (? Agent);Link to CR card
-AL;REC;Segnatura;Reference code;ISAD(G) ñ 3.1.1;;;;Record Set ñ identifier;
-AL;QNT;Consistenza;Quantity;ISAD(G) ñ 3.1.5;;;;Record Set ñ extent;
-AL;IND;Lingua/scrittura della documentazione;Language/script of material;ISAD(G) ñ 3.4.3;;Rep.;;Record Set ñ language;
-AL;INDL;Lingua;Language;ISAD(G) ñ 3.4.3;;;;Record Set ñ language;
-AL;INDS;Scrittura;Script;ISAD(G) ñ 3.4.3;;;;Record Set ñ script;
-AL;CHR;Estremi cronologici;Chronological details;ISAD(G) ñ 3.1.3;;;;;Section (header)
-AL;DOB;Estremo cronologico remoto;From;ISAD(G) ñ 3.1.3;;;;Record Set ñ date;
-AL;DOS;Specifiche estremo remoto;Details;ISAD(G) ñ 3.1.3;;;;Record Set ñ date (qualifier);
-AL;DOD;Estremo cronologico recente;To;ISAD(G) ñ 3.1.3;;;;Record Set ñ date;
-AL;DOT;Specifiche estremo recente;Details;ISAD(G) ñ 3.1.3;;;;Record Set ñ date (qualifier);
-AL;DOE;Epoca/Periodo;Epoch/Period;ISAD(G) ñ 3.1.3;;;;Record Set ñ date (period);
-AL;HOL;Soggetto conservatore;Holding institution;ISAD(G) ñ 3.5.1;;;;Record Set ñ isHeldBy (? Agent);Link to HO card
-AL;HON;Denominazione;Name;ISAD(G) ñ 3.5.1;;;;Record Set ñ isHeldBy (? Agent);
-AL;HOK;Codice identificativo;Identification code;ISAD(G) ñ 3.5.1;;;;Record Set ñ isHeldBy (? Agent);
-AL;HOP;Collocazione;Placement;ISAD(G) ñ 3.5.1;;;;Record Set ñ isHeldBy (? Agent);
-AL;RED;Descrizione documentazione;Documentation description;;;;;;Section (header)
-AL;REF;Fondo di appartenenza;Fond;ISAD(G) ñ 3.5.3;;;;Record Set ñ isPartOf;
-AL;REL;Livello archivistico superiore;Higher archival level;ISAD(G) ñ 3.5.3;;;;Record Set ñ isPartOf;
-AL;HIS;Storia archivistica;Archival history;ISAD(G) ñ 3.2.3;;;;Record Set ñ history;
-AL;REG;Descrizione generale;General description;ISAD(G) ñ 3.3.1;;;;Record Set ñ scopeAndContent;
-AL;REP;Descrizione fisica;Physical description;ISAD(G) ñ 3.4.4;;;;Record Set ñ physicalCharacteristics;
-AL;KEY;Keyword / Tag;Keyword / Tag;;;Rep.;;Record Set ñ subject;
-AL;ACC;Condizioni che regolano l'accesso;Conditions governing access;ISAD(G) ñ 3.4.1;;;;Record Set ñ conditionsOfAccess;
-AL;RER;Condizioni che regolano la riproduzione;Conditions governing reproduction;ISAD(G) ñ 3.4.2;;;;Record Set ñ conditionsOfUse;
-AL;OPE;Altre persone;Other persons;;;;;;Section (header)
-AL;OPES;Cognome;Surname;;;;;;Subfield
-AL;OPEN;Nome;Name;;;;;;Subfield
-AL;OPEK;Codice identificativo;Identification code;;;;;;Subfield
-AL;DOA;Altre date;Other dates;ISAD(G) ñ 3.1.3;;Rep.;;Record Set ñ date;
-AL;DOAS;Descrizione;Description;ISAD(G) ñ 3.1.3;;;;;
-AL;DOAD;Data;Date;ISAD(G) ñ 3.1.3;;;;;
-AL;POA;Altri luoghi;Other places;;;Rep.;;Record Set ñ place;
-AL;POAS;Descrizione;Description;;;;;;
-AL;POAP;Luogo;Place;;;;;;
-AL;POAA;Latitudine;Latitude;;;;;;
-AL;POAO;Longitudine;Longitude;;;;;;
-AL;POAI;Indirizzo completo;Complete address;;;;;;
-AL;COD;Altri codici;Other codes;;;Rep.;;Record Set ñ identifier (alt.);
-AL;CODK;Codice identificativo;Identification code;;;;;;
-AL;CODD;Descrizione;Description;;;;;;
-AL;CODL;Link;Link;;;;;;
-AL;LNK;Altri link;Other links;;;Rep.;;;
-AL;LNKD;Descrizione;Description;;;;;;
-AL;LNKL;Link;Link;;;;;;
-AL;BIB;Bibliografia;Bibliography;ISAD(G) ñ 3.5.4;;Rep.;;Record Set ñ relatedResource;
-AL;BIBD;Descrizione;Description;ISAD(G) ñ 3.5.4;;;;;
-AL;BIBL;Link;Link;ISAD(G) ñ 3.5.4;;;;;
-AL;CMZ;Compilazione;Data entry;ISAD(G) ñ 3.7.3;;;;Record Set ñ recordCreationDate;
-AL;CMZD;Data;Date;ISAD(G) ñ 3.7.3;;;;;
-AL;CMZN;Nome utente;User's name;ISAD(G) ñ 3.7.3;;;;;
-AL;CMZC;Codice utente;User's code;ISAD(G) ñ 3.7.3;;;;;
-AL;AGR;Ultimo aggiornamento;Last update;ISAD(G) ñ 3.7.3;;;;Record Set ñ recordModificationDate;
-AL;AGRD;Data;Date;ISAD(G) ñ 3.7.3;;;;;
-AL;AGRN;Nome utente;User's name;ISAD(G) ñ 3.7.3;;;;;
-AL;AGRC;Codice utente;User's code;ISAD(G) ñ 3.7.3;;;;;
-AL;OSS;Appunti;General notes;ISAD(G) ñ 3.6.1;;;;Record Set ñ note;
-AL;OSN;Note dell'archivista;Archivist's note;ISAD(G) ñ 3.7.1;;;;Record Set ñ note;
-AL;DOC;Allegati;Attachments;;;Rep.;;Record Set ñ hasInstantiation (? Instantiation);
-AL;DOCN;Titolo;Title;;;;;;
-AL;DOCD;Descrizione;Description;;;;;;
-AL;DOCL;Caricamento;Loading;;;;;;
-AL;COR;Entit‡ correlate;Related entities;ISAD(G) ñ 3.5.3;;Rep.;;Record Set ñ isRelatedTo;
-AL;CORT;Tipo scheda;Catalogue card type;ISAD(G) ñ 3.5.3;;;;;
-AL;CORK;Codice identificativo entit‡;Entity identification code;ISAD(G) ñ 3.5.3;;;;;
-AL;CORD;Descrizione relazione;Relation description;ISAD(G) ñ 3.5.3;;;;;
-AR;TSK;Tipo scheda;Catalogue card type;;;;;;Technical field
-AR;IDK;Codice univoco;Identification code;ISAD(G) ñ 3.1.1;;;Obl.;Record ñ identifier;
-AR;VSV;Visibile (pubblicabile online);Visibility (online);;;;Obl.;;Technical field
-AR;INF;Informazioni generali;General information;;;;;;Section (header)
-AR;LDD;Livello di descrizione;Level of description;ISAD(G) ñ 3.1.4;;;Obl.;Record ñ recordType;
-AR;TIT;Titolo;Title;ISAD(G) ñ 3.1.2;;;Obl.;Record ñ title;
-AR;TIP;Forme parallele del titolo;Parallel forms of title;ISAD(G) ñ 3.1.2;;Rep.;;Record ñ title (parallel);
-AR;TIPP;Titolo parallelo;Parallel title;ISAD(G) ñ 3.1.2;;;;Record ñ title (parallel);
-AR;TIPL;Lingua;Language;ISAD(G) ñ 3.1.2;;;;Record ñ language;
-AR;TYP;Tipologia;Type;ISAD(G) ñ 3.1.5;;Rep.;;Record ñ recordType;
-AR;CRE;Soggetto produttore;Creator;ISAD(G) ñ 3.2.1;;Rep.;;Record ñ hasCreator (? Agent);Link to CR card
-AR;REC;Segnatura;Reference code;ISAD(G) ñ 3.1.1;;;;Record ñ identifier;
-AR;QNT;Consistenza;Quantity;ISAD(G) ñ 3.1.5;;;;Record ñ extent;
-AR;IND;Lingua/scrittura della documentazione;Language/script of material;ISAD(G) ñ 3.4.3;;Rep.;;Record ñ language;
-AR;INDL;Lingua;Language;ISAD(G) ñ 3.4.3;;;;Record ñ language;
-AR;INDS;Scrittura;Script;ISAD(G) ñ 3.4.3;;;;Record ñ script;
-AR;CHR;Estremi cronologici;Chronological details;ISAD(G) ñ 3.1.3;;;;;Section (header)
-AR;DOB;Estremo cronologico remoto;From;ISAD(G) ñ 3.1.3;;;;Record ñ date;
-AR;DOS;Specifiche estremo remoto;Details;ISAD(G) ñ 3.1.3;;;;Record ñ date (qualifier);
-AR;DOD;Estremo cronologico recente;To;ISAD(G) ñ 3.1.3;;;;Record ñ date;
-AR;DOT;Specifiche estremo recente;Details;ISAD(G) ñ 3.1.3;;;;Record ñ date (qualifier);
-AR;DOP;Data topica;Place;ISAD(G) ñ 3.1.3;;;;Record ñ hasOrHadLocation;
-AR;DOAD;Denominazione;Place name;ISAD(G) ñ 3.1.3;;;;;
-AR;DOAA;Latitudine;Latitude;ISAD(G) ñ 3.1.3;;;;;
-AR;DOAO;Longitudine;Longitude;ISAD(G) ñ 3.1.3;;;;;
-AR;DOE;Epoca/Periodo;Epoch/Period;ISAD(G) ñ 3.1.3;;;;Record ñ date (period);
-AR;HOL;Soggetto conservatore;Holding institution;ISAD(G) ñ 3.5.1;;;;Record ñ isHeldBy (? Agent);Link to HO card
-AR;HON;Denominazione;Name;ISAD(G) ñ 3.5.1;;;;Record ñ isHeldBy (? Agent);
-AR;HOK;Codice identificativo;Identification code;ISAD(G) ñ 3.5.1;;;;Record ñ isHeldBy (? Agent);
-AR;HOP;Collocazione;Placement;ISAD(G) ñ 3.5.1;;;;Record ñ isHeldBy (? Agent);
-AR;RED;Descrizione documentazione;Resource description;;;;;;Section (header)
-AR;REF;Fondo di appartenenza;Fond;ISAD(G) ñ 3.5.3;;;;Record ñ isPartOf;
-AR;REL;Livello archivistico superiore;Higher archival level;ISAD(G) ñ 3.5.3;;;;Record ñ isPartOf;
-AR;REG;Descrizione generale;General description;ISAD(G) ñ 3.3.1;;;;Record ñ scopeAndContent;
-AR;REP;Descrizione fisica;Physical description;ISAD(G) ñ 3.4.4;;;;Record ñ physicalCharacteristics;
-AR;KEY;Keyword / Tag;Keyword / Tag;;;Rep.;;Record ñ subject;
-AR;ACC;Condizioni che regolano l'accesso;Conditions governing access;ISAD(G) ñ 3.4.1;;;;Record ñ conditionsOfAccess;
-AR;RER;Condizioni che regolano la riproduzione;Conditions governing reproduction;ISAD(G) ñ 3.4.2;;;;Record ñ conditionsOfUse;
-AR;OPE;Altre persone;Other persons;;;;;;Section (header)
-AR;OPES;Cognome;Surname;;;;;;Subfield
-AR;OPEN;Nome;Name;;;;;;Subfield
-AR;OPEK;Codice identificativo;Identification code;;;;;;Subfield
-AR;DOA;Altre date;Other dates;ISAD(G) ñ 3.1.3;;Rep.;;Record ñ date;
-AR;DOAS;Descrizione;Description;ISAD(G) ñ 3.1.3;;;;;
-AR;DOAD;Data;Date;ISAD(G) ñ 3.1.3;;;;;
-AR;POA;Altri luoghi;Other places;;;Rep.;;Record ñ place;
-AR;POAS;Descrizione;Description;;;;;;
-AR;POAP;Luogo;Place;;;;;;
-AR;POAA;Latitudine;Latitude;;;;;;
-AR;POAO;Longitudine;Longitude;;;;;;
-AR;POAI;Indirizzo completo;Complete address;;;;;;
-AR;COD;Altri codici;Other codes;;;Rep.;;Record ñ identifier (alt.);
-AR;CODK;Codice identificativo;Identification code;;;;;;
-AR;CODD;Descrizione;Description;;;;;;
-AR;CODL;Link;Link;;;;;;
-AR;LNK;Altri link;Other links;;;Rep.;;;
-AR;LNKD;Descrizione;Description;;;;;;
-AR;LNKL;Link;Link;;;;;;
-AR;BIB;Bibliografia;Bibliography;ISAD(G) ñ 3.5.4;;Rep.;;Record ñ relatedResource;
-AR;BIBD;Descrizione;Description;ISAD(G) ñ 3.5.4;;;;;
-AR;BIBL;Link;Link;ISAD(G) ñ 3.5.4;;;;;
-AR;CMZ;Compilazione;Data entry;ISAD(G) ñ 3.7.3;;;;Record ñ recordCreationDate;
-AR;CMZD;Data;Date;ISAD(G) ñ 3.7.3;;;;;
-AR;CMZN;Nome utente;User's name;ISAD(G) ñ 3.7.3;;;;;
-AR;CMZC;Codice utente;User's code;ISAD(G) ñ 3.7.3;;;;;
-AR;AGR;Ultimo aggiornamento;Last update;ISAD(G) ñ 3.7.3;;;;Record ñ recordModificationDate;
-AR;AGRD;Data;Date;ISAD(G) ñ 3.7.3;;;;;
-AR;AGRN;Nome utente;User's name;ISAD(G) ñ 3.7.3;;;;;
-AR;AGRC;Codice utente;User's code;ISAD(G) ñ 3.7.3;;;;;
-AR;OSS;Appunti;General notes;ISAD(G) ñ 3.6.1;;;;Record ñ note;
-AR;OSN;Note dell'archivista;Archivist's note;ISAD(G) ñ 3.7.1;;;;Record ñ note;
-AR;DOC;Allegati;Attachments;;;Rep.;;Record ñ hasInstantiation (? Instantiation);
-AR;DOCN;Titolo;Title;;;;;;
-AR;DOCD;Descrizione;Description;;;;;;
-AR;DOCL;Caricamento;Loading;;;;;;
-AR;COR;Entit‡ correlate;Related entities;ISAD(G) ñ 3.5.3;;Rep.;;Record ñ isRelatedTo;
-AR;CORT;Tipo scheda;Catalogue card type;ISAD(G) ñ 3.5.3;;;;;
-AR;CORK;Codice identificativo entit‡;Entity identification code;ISAD(G) ñ 3.5.3;;;;;
-AR;CORD;Descrizione relazione;Relation description;ISAD(G) ñ 3.5.3;;;;;
-CR;TSK;Tipo scheda;Catalogue card type;;;;;;Technical field
-CR;IDK;Codice univoco;Identification code;ISAAR(CPF) ñ 5.1.6;;;Obl.;Agent ñ identifier;
-CR;VSV;Visibile (pubblicabile online);Visibility (online);;;;Obl.;;Technical field
-CR;ENT;Tipologia entit‡;Type of entity;ISAAR(CPF) ñ 5.1.1;;;Obl.;Agent ñ agentType;
-CR;APP;Denominazione;Appellation;;;;;;Section (header)
-CR;APA;Denominazione;Appellation;ISAAR(CPF) ñ 5.1.2;;;Obl.;Agent ñ name;
-CR;APK;Codice Identificativo;Identification code;;;;;;Link to PE card (if person)
-CR;APF;Forme parallele della denominazione;Parallel forms of appellation;ISAAR(CPF) ñ 5.1.3;;Rep.;;Agent ñ name (parallel);
-CR;APFS;Denominazione;Appellation;ISAAR(CPF) ñ 5.1.3;;;;;
-CR;APFL;Lingua;Language;ISAAR(CPF) ñ 5.1.3;;;;Agent ñ language;
-CR;CHR;Estremi cronologici;Chronological details;;;;;;Section (header)
-CR;DOB;Estremo cronologico remoto;From;ISAAR(CPF) ñ 5.2.1;;;;Agent ñ dateOfBirth;
-CR;DOS;Specifiche estremo remoto;Details;ISAAR(CPF) ñ 5.2.1;;;;;
-CR;DOD;Estremo cronologico recente;To;ISAAR(CPF) ñ 5.2.1;;;;Agent ñ dateOfDeath;
-CR;DOT;Specifiche estremo recente;Details;ISAAR(CPF) ñ 5.2.1;;;;;
-CR;DOE;Epoca/Periodo;Epoch/Period;ISAAR(CPF) ñ 5.2.1;;;;Agent ñ date (period);
-CR;PLC;Luoghi;Places;ISAAR(CPF) ñ 5.2.3;;Rep.;;Agent ñ hasOrHadLocation;
-CR;PLCS;Descrizione;Description;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;PLCP;Luogo;Place;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;PLCA;Latitudine;Latitude;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;PLCO;Longitudine;Longitude;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;PLCI;Indirizzo completo;Complete address;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;INF;Informazioni generali;General information;;;;;;Section (header)
-CR;HIS;Storia;History;ISAAR(CPF) ñ 5.2.2;;;;Agent ñ history;
-CR;FOA;Funzioni, occupazioni e attivit‡;Functions, occupations and activities;ISAAR(CPF) ñ 5.2.5;;;;Agent ñ hasOccupation;
-CR;ISG;Struttura amministrativa/Genealogia;Internal structures/Genealogy;ISAAR(CPF) ñ 5.2.7;;;;Agent ñ hasOrHadStructuralPart;
-CR;GEC;Contesto generale;General context;ISAAR(CPF) ñ 5.2.8;;;;Agent ñ generalContext;
-CR;DOA;Altre date;Other dates;ISAAR(CPF) ñ 5.2.1;;Rep.;;Agent ñ date;
-CR;DOAS;Descrizione;Description;ISAAR(CPF) ñ 5.2.1;;;;;
-CR;DOAD;Data;Date;ISAAR(CPF) ñ 5.2.1;;;;;
-CR;POA;Altri luoghi;Other places;ISAAR(CPF) ñ 5.2.3;;Rep.;;Agent ñ hasOrHadLocation;
-CR;POAS;Descrizione;Description;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;POAP;Luogo;Place;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;POAA;Latitudine;Latitude;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;POAO;Longitudine;Longitude;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;POAI;Indirizzo completo;Complete address;ISAAR(CPF) ñ 5.2.3;;;;;
-CR;BIB;Bibliografia;Bibliography;ISAAR(CPF) ñ 5.4.8;;Rep.;;Agent ñ relatedResource;
-CR;BIBD;Descrizione;Description;ISAAR(CPF) ñ 5.4.8;;;;;
-CR;BIBL;Link;Link;ISAAR(CPF) ñ 5.4.8;;;;;
-CR;LNK;Altri link;Other links;;;Rep.;;;
-CR;LNKD;Descrizione;Description;;;;;;
-CR;LNKL;Link;Link;;;;;;
-CR;CMZ;Compilazione;Data entry;ISAAR(CPF) ñ 5.4.6;;;;Agent ñ recordCreationDate;
-CR;CMZD;Data;Date;ISAAR(CPF) ñ 5.4.6;;;;;
-CR;CMZN;Nome utente;User's name;ISAAR(CPF) ñ 5.4.6;;;;;
-CR;CMZC;Codice utente;User's code;ISAAR(CPF) ñ 5.4.6;;;;;
-CR;AGR;Ultimo aggiornamento;Last update;ISAAR(CPF) ñ 5.4.6;;;;Agent ñ recordModificationDate;
-CR;AGRD;Data;Date;ISAAR(CPF) ñ 5.4.6;;;;;
-CR;AGRN;Nome utente;User's name;ISAAR(CPF) ñ 5.4.6;;;;;
-CR;AGRC;Codice utente;User's code;ISAAR(CPF) ñ 5.4.6;;;;;
-CR;OSS;Appunti;General notes;ISAAR(CPF) ñ 5.4.9;;;;Agent ñ note;
-CR;DOC;Allegati;Attachments;;;Rep.;;Agent ñ hasInstantiation (? Instantiation);
-CR;DOCN;Titolo;Title;;;;;;
-CR;DOCD;Descrizione;Description;;;;;;
-CR;DOCL;Caricamento;Loading;;;;;;
-CR;COR;Entit‡ correlate;Related entities;;;Rep.;;Agent ñ isRelatedTo;
-CR;CORT;Tipo scheda;Catalogue card type;;;;;;
-CR;CORK;Codice identificativo entit‡;Entity identification code;;;;;;
-CR;CORD;Descrizione relazione;Relation description;;;;;;
-HO;TSK;Tipo scheda;Catalogue card type;;;;;;Technical field
-HO;IDK;Codice univoco;Identification code;ISDIAH ñ 5.1.1;;;Obl.;Agent ñ identifier;
-HO;VSV;Visibile (pubblicabile online);Visibility (online);;;;Obl.;;Technical field
-HO;ENT;Tipologia entit‡;Type of entity;ISDIAH ñ 5.1.6;;;Obl.;Agent ñ agentType;
-HO;APP;Denominazione;Appellation;;;;;;Section (header)
-HO;APA;Denominazione;Appellation;ISDIAH ñ 5.1.2;;;Obl.;Agent ñ name;
-HO;APK;Codice Identificativo;Identification code;;;;;;Link to PE card (if person)
-HO;APF;Forme parallele della denominazione;Parallel forms of appellation;ISDIAH ñ 5.1.3;;Rep.;;Agent ñ name (parallel);
-HO;APFS;Denominazione;Appellation;ISDIAH ñ 5.1.3;;;;;
-HO;APFL;Lingua;Language;ISDIAH ñ 5.1.3;;;;Agent ñ language;
-HO;PLC;Luoghi;Places;ISDIAH ñ 5.2.1;;Rep.;;Agent ñ hasOrHadLocation;
-HO;PLCS;Descrizione;Description;ISDIAH ñ 5.2.1;;;;;
-HO;PLCP;Luogo;Place;ISDIAH ñ 5.2.1;;;;;
-HO;PLCA;Latitudine;Latitude;ISDIAH ñ 5.2.1;;;;;
-HO;PLCO;Longitudine;Longitude;ISDIAH ñ 5.2.1;;;;;
-HO;PLCI;Indirizzo completo;Complete address;ISDIAH ñ 5.2.1;;;;;
-HO;INF;Informazioni generali;General information;;;;;;Section (header)
-HO;HIS;Storia dell'istituto conservatore di archivi;History of the institution with archival holdings;ISDIAH ñ 5.3.1;;;;Agent ñ history;
-HO;GCC;Contesto territoriale e culturale;Geographical and cultural context;ISDIAH ñ 5.3.2;;;;Agent ñ generalContext;
-HO;RMC;Politiche di gestione documentaria e di acquisizione;Records management and collecting policies;ISDIAH ñ 5.3.5;;;;Agent ñ recordsManagementPolicy;
-HO;AOH;Patrimonio archivistico ed altri materiali conservati;Archival and other holdings;ISDIAH ñ 5.3.7;;Rep.;;Agent ñ hasOrHadHoldings;
-HO;CRA;Condizioni e requisiti per l'accesso e l'uso;Conditions and requirements for access and use;ISDIAH ñ 5.4.2;;;;Agent ñ conditionsOfAccess;
-HO;WEB;Sito web;Website;ISDIAH ñ 5.2.1;;;;Agent ñ hasOnlinePresence;
-HO;EMA;Email;Email;ISDIAH ñ 5.2.2;;;;Agent ñ contactPoint;
-HO;BIB;Bibliografia;Bibliography;ISDIAH ñ 5.3.8;;Rep.;;Agent ñ relatedResource;
-HO;BIBD;Descrizione;Description;ISDIAH ñ 5.3.8;;;;;
-HO;BIBL;Link;Link;ISDIAH ñ 5.3.8;;;;;
-HO;LNK;Altri link;Other links;;;Rep.;;;
-HO;LNKD;Descrizione;Description;;;;;;
-HO;LNKL;Link;Link;;;;;;
-HO;CMZ;Compilazione;Data entry;ISDIAH ñ 5.6.6;;;;Agent ñ recordCreationDate;
-HO;CMZD;Data;Date;ISDIAH ñ 5.6.6;;;;;
-HO;CMZN;Nome utente;User's name;ISDIAH ñ 5.6.6;;;;;
-HO;CMZC;Codice utente;User's code;ISDIAH ñ 5.6.6;;;;;
-HO;AGR;Ultimo aggiornamento;Last update;ISDIAH ñ 5.6.6;;;;Agent ñ recordModificationDate;
-HO;AGRD;Data;Date;ISDIAH ñ 5.6.6;;;;;
-HO;AGRN;Nome utente;User's name;ISDIAH ñ 5.6.6;;;;;
-HO;AGRC;Codice utente;User's code;ISDIAH ñ 5.6.6;;;;;
-HO;OSS;Appunti;General notes;ISDIAH ñ 5.6.9;;;;Agent ñ note;
-HO;DOC;Allegati;Attachments;;;Rep.;;Agent ñ hasInstantiation (? Instantiation);
-HO;DOCN;Titolo;Title;;;;;;
-HO;DOCD;Descrizione;Description;;;;;;
-HO;DOCL;Caricamento;Loading;;;;;;
-HO;COR;Entit‡ correlate;Related entities;;;Rep.;;Agent ñ isRelatedTo;
-HO;CORT;Tipo scheda;Catalogue card type;;;;;;
-HO;CORK;Codice identificativo entit‡;Entity identification code;;;;;;
-HO;CORD;Descrizione relazione;Relation description;;;;;;
-PE;TSK;Tipo scheda;Catalogue card type;;;;;;Technical field
-PE;IDK;Codice univoco;Identification code;ISAAR(CPF) ñ 5.1.6;Person code;;Obl.;Person ñ identifier;
-PE;VSV;Visibile (pubblicabile online);Visibility (online);;;;Obl.;;Technical field
-PE;APP;Denominazione;Appellation;;;;;;Section (header)
-PE;APS;Cognome;Surname;ISAAR(CPF) ñ 5.1.2;;;Obl.;Person ñ name (surname);
-PE;APN;Nome;Name;ISAAR(CPF) ñ 5.1.2;;;;Person ñ name (given name);
-PE;APA;Pseudonimo/Anonimizzazione;Pseudonymised/Anonymised;ISAAR(CPF) ñ 5.1.5;Pseudonymised / Anonymised;Rep.;;Person ñ name (pseudonym);
-PE;APAN;Denominazione;Name;ISAAR(CPF) ñ 5.1.5;;;;Person ñ name (pseudonym);
-PE;APAC;Categoria;Category;ISAAR(CPF) ñ 5.1.5;;;;Person ñ name (category);
-PE;APF;Forme parallele del nome;Parallel forms of name;ISAAR(CPF) ñ 5.1.3;;Rep.;;Person ñ name (parallel);
-PE;APFS;Cognome;Surname;ISAAR(CPF) ñ 5.1.3;;;;;
-PE;APFN;Nome;Name;ISAAR(CPF) ñ 5.1.3;;;;;
-PE;APFL;Lingua;Language;ISAAR(CPF) ñ 5.1.3;;;;Person ñ language;
-PE;INF;Informazioni generali;General information;;;;;;Section (header)
-PE;OCC;Professione;Occupation;ISAAR(CPF) ñ 5.2.5;Primary occupation;Rep.;;Person ñ hasOccupation;
-PE;ETN;Comunit‡ di appartenenza;Foreign community;ISAAR(CPF) ñ 5.2.2;Ethnic community;;;Person ñ hasAffiliation;
-PE;ING;Genere;Gender;ISAAR(CPF) ñ 5.2.2;Gender;;;Person ñ hasGender;
-PE;INL;Lingua;Language;ISAAR(CPF) ñ 5.4.7;;;;Person ñ language;
-PE;INLP;Lingua primaria;Primary language;ISAAR(CPF) ñ 5.4.7;Primary language;;;Person ñ language (primary);
-PE;INLO;Altre lingue;Other language;ISAAR(CPF) ñ 5.4.7;Other language;Rep.;;Person ñ language (other);
-PE;CHR;Estremi cronologici;Chronological details;;;;;;Section (header)
-PE;DOB;Data di nascita;Date of birth;ISAAR(CPF) ñ 5.2.1;Date of birth;;;Person ñ dateOfBirth;
-PE;DOS;Specifiche della data di nascita;Date of birth details;ISAAR(CPF) ñ 5.2.1;;;;;
-PE;DOD;Data di morte;Date of death;ISAAR(CPF) ñ 5.2.1;Date of death;;;Person ñ dateOfDeath;
-PE;DOT;Specifiche della data di nascita;Date of death details;ISAAR(CPF) ñ 5.2.1;;;;;
-PE;POB;Luogo di nascita;Place of birth;ISAAR(CPF) ñ 5.2.3;;;;Person ñ placeOfBirth;
-PE;POBD;Denominazione;Place;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;POBA;Latitudine;Latitude;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;POBO;Longitudine;Longitude;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;POD;Luogo di morte;Place of death;ISAAR(CPF) ñ 5.2.3;;;;Person ñ placeOfDeath;
-PE;PODD;Denominazione;Place;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;PODA;Latitudine;Latitude;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;PODO;Longitudine;Longitude;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;DOA;Altre date;Other dates;ISAAR(CPF) ñ 5.2.1;;Rep.;;Person ñ date;
-PE;DOAS;Descrizione;Description;ISAAR(CPF) ñ 5.2.1;;;;;
-PE;DOAD;Data;Date;ISAAR(CPF) ñ 5.2.1;;;;;
-PE;POA;Altri luoghi;Other places;ISAAR(CPF) ñ 5.2.3;;Rep.;;Person ñ hasOrHadLocation;
-PE;POAS;Descrizione;Description;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;POAP;Luogo;Place;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;POAA;Latitudine;Latitude;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;POAO;Longitudine;Longitude;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;POAI;Indirizzo completo;Complete address;ISAAR(CPF) ñ 5.2.3;;;;;
-PE;BIO;Biografia;Biography;ISAAR(CPF) ñ 5.2.2;;;;Person ñ history;
-PE;BION;Note biografiche;Biographical notes;ISAAR(CPF) ñ 5.2.2;;;;;
-PE;BIOF;Fonte;Source;ISAAR(CPF) ñ 5.2.2;;;;;
-PE;REL;Relazioni;Relations;ISAAR(CPF) ñ 5.2.7;;;;Person ñ isRelatedTo;
-PE;REI;Informazioni sulla relazione;Relation info;ISAAR(CPF) ñ 5.2.7;;;;;
-PE;REIT;Tipo di relazione;Relations type;ISAAR(CPF) ñ 5.2.7;;;;Person ñ relationshipType;
-PE;REIS;Cognome;Surname;ISAAR(CPF) ñ 5.2.7;;;;;
-PE;REIN;Nome;Name;ISAAR(CPF) ñ 5.2.7;;;;;
-PE;REIK;Codice identificativo;Identification code;ISAAR(CPF) ñ 5.2.7;;;;;Link to PE card
-PE;COD;Altri codici;Other codes;ISAAR(CPF) ñ 5.1.6;;Rep.;;Person ñ identifier (alt.);
-PE;CODK;Codice identificativo;Identification code;ISAAR(CPF) ñ 5.1.6;;;;;
-PE;CODP;Permalink;Permalink;ISAAR(CPF) ñ 5.1.6;;;;;
-PE;CODS;Standard;Standard;ISAAR(CPF) ñ 5.1.6;;;;;
-PE;BIB;Bibliografia;Bibliography;ISAAR(CPF) ñ 5.4.8;;Rep.;;Person ñ relatedResource;
-PE;BIBD;Descrizione;Description;ISAAR(CPF) ñ 5.4.8;;;;;
-PE;BIBL;Link;Link;ISAAR(CPF) ñ 5.4.8;;;;;
-PE;LNK;Altri link;Other links;;;Rep.;;;
-PE;LNKD;Descrizione;Description;;;;;;
-PE;LNKL;Link;Link;;;;;;
-PE;CMZ;Compilazione;Data entry;ISAAR(CPF) ñ 5.4.6;;;;Person ñ recordCreationDate;
-PE;CMZD;Data;Date;ISAAR(CPF) ñ 5.4.6;;;;;
-PE;CMZN;Nome utente;User's name;ISAAR(CPF) ñ 5.4.6;;;;;
-PE;CMZC;Codice utente;User's code;ISAAR(CPF) ñ 5.4.6;;;;;
-PE;AGR;Ultimo aggiornamento;Last update;ISAAR(CPF) ñ 5.4.6;;;;Person ñ recordModificationDate;
-PE;AGRD;Data;Date;ISAAR(CPF) ñ 5.4.6;;;;;
-PE;AGRN;Nome utente;User's name;ISAAR(CPF) ñ 5.4.6;;;;;
-PE;AGRC;Codice utente;User's code;ISAAR(CPF) ñ 5.4.6;;;;;
-PE;OSS;Appunti;General notes;ISAAR(CPF) ñ 5.4.9;;;;Person ñ note;
-PE;DOC;Allegati;Attachments;;;Rep.;;Person ñ hasInstantiation (? Instantiation);
-PE;DOCN;Titolo;Title;;;;;;
-PE;DOCD;Descrizione;Description;;;;;;
-PE;DOCL;Caricamento;Loading;;;;;;
-PE;COR;Entit‡ correlate;Related entities;;;Rep.;;Person ñ isRelatedTo;
-PE;CORT;Tipo scheda;Catalogue card type;;;;;;
-PE;CORK;Codice identificativo entit‡;Entity identification code;;;;;;
-PE;CORD;Descrizione relazione;Relation description;;;;;;
+Card,Code,Name (ITA),Name (ENG),STD ref (ICA),STD ref (BM),Repetitive,Mandatory,RiC-CM entity/attribute,Notes
+AL,TSK,Tipo scheda,Catalogue card type,,,,,,Technical field 
+AL,IDK,Codice univoco,Identification code,ISAD(G) - 3.1.1,,,Obl.,Record Set - identifier,
+AL,VSV,Visibile (pubblicabile online),Visibility (online),,,,Obl.,,Technical field
+AL,INF,Informazioni generali,General information,,,,,,Section (header)
+AL,LDD,Livello di descrizione,Level of description,ISAD(G) - 3.1.4,,,Obl.,Record Set - recordSetType,
+AL,TIT,Titolo,Title,ISAD(G) - 3.1.2,,,Obl.,Record Set - title,
+AL,TIP,Forme parallele del titolo,Parallel forms of title,ISAD(G) - 3.1.2,,Rep.,,Record Set - title (parallel),
+AL,TIPP,Titolo parallelo,Parallel title,ISAD(G) - 3.1.2,,,,Record Set - title (parallel),
+AL,TIPL,Lingua,Language,ISAD(G) - 3.1.2,,,,Record Set - language,
+AL,CRE,Soggetto produttore,Creator,ISAD(G) - 3.2.1,,Rep.,,Record Set - hasCreator (? Agent),Link to CR card
+AL,REC,Segnatura,Reference code,ISAD(G) - 3.1.1,,,,Record Set - identifier,
+AL,QNT,Consistenza,Quantity,ISAD(G) - 3.1.5,,,,Record Set - extent,
+AL,IND,Lingua/scrittura della documentazione,Language/script of material,ISAD(G) - 3.4.3,,Rep.,,Record Set - language,
+AL,INDL,Lingua,Language,ISAD(G) - 3.4.3,,,,Record Set - language,
+AL,INDS,Scrittura,Script,ISAD(G) - 3.4.3,,,,Record Set - script,
+AL,CHR,Estremi cronologici,Chronological details,ISAD(G) - 3.1.3,,,,,Section (header)
+AL,DOB,Estremo cronologico remoto,From,ISAD(G) - 3.1.3,,,,Record Set - date,
+AL,DOS,Specifiche estremo remoto,Details,ISAD(G) - 3.1.3,,,,Record Set - date (qualifier),
+AL,DOD,Estremo cronologico recente,To,ISAD(G) - 3.1.3,,,,Record Set - date,
+AL,DOT,Specifiche estremo recente,Details,ISAD(G) - 3.1.3,,,,Record Set - date (qualifier),
+AL,DOE,Epoca/Periodo,Epoch/Period,ISAD(G) - 3.1.3,,,,Record Set - date (period),
+AL,HOL,Soggetto conservatore,Holding institution,ISAD(G) - 3.5.1,,,,Record Set - isHeldBy (? Agent),Link to HO card
+AL,HON,Denominazione,Name,ISAD(G) - 3.5.1,,,,Record Set - isHeldBy (? Agent),
+AL,HOK,Codice identificativo,Identification code,ISAD(G) - 3.5.1,,,,Record Set - isHeldBy (? Agent),
+AL,HOP,Collocazione,Placement,ISAD(G) - 3.5.1,,,,Record Set - isHeldBy (? Agent),
+AL,RED,Descrizione documentazione,Documentation description,,,,,,Section (header)
+AL,REF,Fondo di appartenenza,Fond,ISAD(G) - 3.5.3,,,,Record Set - isPartOf,
+AL,REL,Livello archivistico superiore,Higher archival level,ISAD(G) - 3.5.3,,,,Record Set - isPartOf,
+AL,HIS,Storia archivistica,Archival history,ISAD(G) - 3.2.3,,,,Record Set - history,
+AL,REG,Descrizione generale,General description,ISAD(G) - 3.3.1,,,,Record Set - scopeAndContent,
+AL,REP,Descrizione fisica,Physical description,ISAD(G) - 3.4.4,,,,Record Set - physicalCharacteristics,
+AL,KEY,Keyword / Tag,Keyword / Tag,,,Rep.,,Record Set - subject,
+AL,ACC,Condizioni che regolano l'accesso,Conditions governing access,ISAD(G) - 3.4.1,,,,Record Set - conditionsOfAccess,
+AL,RER,Condizioni che regolano la riproduzione,Conditions governing reproduction,ISAD(G) - 3.4.2,,,,Record Set - conditionsOfUse,
+AL,OPE,Altre persone,Other persons,,,,,,Section (header)
+AL,OPES,Cognome,Surname,,,,,,Subfield
+AL,OPEN,Nome,Name,,,,,,Subfield
+AL,OPEK,Codice identificativo,Identification code,,,,,,Subfield
+AL,DOA,Altre date,Other dates,ISAD(G) - 3.1.3,,Rep.,,Record Set - date,
+AL,DOAS,Descrizione,Description,ISAD(G) - 3.1.3,,,,,
+AL,DOAD,Data,Date,ISAD(G) - 3.1.3,,,,,
+AL,POA,Altri luoghi,Other places,,,Rep.,,Record Set - place,
+AL,POAS,Descrizione,Description,,,,,,
+AL,POAP,Luogo,Place,,,,,,
+AL,POAA,Latitudine,Latitude,,,,,,
+AL,POAO,Longitudine,Longitude,,,,,,
+AL,POAI,Indirizzo completo,Complete address,,,,,,
+AL,COD,Altri codici,Other codes,,,Rep.,,Record Set - identifier (alt.),
+AL,CODK,Codice identificativo,Identification code,,,,,,
+AL,CODD,Descrizione,Description,,,,,,
+AL,CODL,Link,Link,,,,,,
+AL,LNK,Altri link,Other links,,,Rep.,,,
+AL,LNKD,Descrizione,Description,,,,,,
+AL,LNKL,Link,Link,,,,,,
+AL,BIB,Bibliografia,Bibliography,ISAD(G) - 3.5.4,,Rep.,,Record Set - relatedResource,
+AL,BIBD,Descrizione,Description,ISAD(G) - 3.5.4,,,,,
+AL,BIBL,Link,Link,ISAD(G) - 3.5.4,,,,,
+AL,CMZ,Compilazione,Data entry,ISAD(G) - 3.7.3,,,,Record Set - recordCreationDate,
+AL,CMZD,Data,Date,ISAD(G) - 3.7.3,,,,,
+AL,CMZN,Nome utente,User's name,ISAD(G) - 3.7.3,,,,,
+AL,CMZC,Codice utente,User's code,ISAD(G) - 3.7.3,,,,,
+AL,AGR,Ultimo aggiornamento,Last update,ISAD(G) - 3.7.3,,,,Record Set - recordModificationDate,
+AL,AGRD,Data,Date,ISAD(G) - 3.7.3,,,,,
+AL,AGRN,Nome utente,User's name,ISAD(G) - 3.7.3,,,,,
+AL,AGRC,Codice utente,User's code,ISAD(G) - 3.7.3,,,,,
+AL,OSS,Appunti,General notes,ISAD(G) - 3.6.1,,,,Record Set - note,
+AL,OSN,Note dell'archivista,Archivist's note,ISAD(G) - 3.7.1,,,,Record Set - note,
+AL,DOC,Allegati,Attachments,,,Rep.,,Record Set - hasInstantiation (? Instantiation),
+AL,DOCN,Titolo,Title,,,,,,
+AL,DOCD,Descrizione,Description,,,,,,
+AL,DOCL,Caricamento,Loading,,,,,,
+AL,COR,Entit√† correlate,Related entities,ISAD(G) - 3.5.3,,Rep.,,Record Set - isRelatedTo,
+AL,CORT,Tipo scheda,Catalogue card type,ISAD(G) - 3.5.3,,,,,
+AL,CORK,Codice identificativo entit√†,Entity identification code,ISAD(G) - 3.5.3,,,,,
+AL,CORD,Descrizione relazione,Relation description,ISAD(G) - 3.5.3,,,,,
+AR,TSK,Tipo scheda,Catalogue card type,,,,,,Technical field
+AR,IDK,Codice univoco,Identification code,ISAD(G) - 3.1.1,,,Obl.,Record - identifier,
+AR,VSV,Visibile (pubblicabile online),Visibility (online),,,,Obl.,,Technical field
+AR,INF,Informazioni generali,General information,,,,,,Section (header)
+AR,LDD,Livello di descrizione,Level of description,ISAD(G) - 3.1.4,,,Obl.,Record - recordType,
+AR,TIT,Titolo,Title,ISAD(G) - 3.1.2,,,Obl.,Record - title,
+AR,TIP,Forme parallele del titolo,Parallel forms of title,ISAD(G) - 3.1.2,,Rep.,,Record - title (parallel),
+AR,TIPP,Titolo parallelo,Parallel title,ISAD(G) - 3.1.2,,,,Record - title (parallel),
+AR,TIPL,Lingua,Language,ISAD(G) - 3.1.2,,,,Record - language,
+AR,TYP,Tipologia,Type,ISAD(G) - 3.1.5,,Rep.,,Record - recordType,
+AR,CRE,Soggetto produttore,Creator,ISAD(G) - 3.2.1,,Rep.,,Record - hasCreator (? Agent),Link to CR card
+AR,REC,Segnatura,Reference code,ISAD(G) - 3.1.1,,,,Record - identifier,
+AR,QNT,Consistenza,Quantity,ISAD(G) - 3.1.5,,,,Record - extent,
+AR,IND,Lingua/scrittura della documentazione,Language/script of material,ISAD(G) - 3.4.3,,Rep.,,Record - language,
+AR,INDL,Lingua,Language,ISAD(G) - 3.4.3,,,,Record - language,
+AR,INDS,Scrittura,Script,ISAD(G) - 3.4.3,,,,Record - script,
+AR,CHR,Estremi cronologici,Chronological details,ISAD(G) - 3.1.3,,,,,Section (header)
+AR,DOB,Estremo cronologico remoto,From,ISAD(G) - 3.1.3,,,,Record - date,
+AR,DOS,Specifiche estremo remoto,Details,ISAD(G) - 3.1.3,,,,Record - date (qualifier),
+AR,DOD,Estremo cronologico recente,To,ISAD(G) - 3.1.3,,,,Record - date,
+AR,DOT,Specifiche estremo recente,Details,ISAD(G) - 3.1.3,,,,Record - date (qualifier),
+AR,DOP,Data topica,Place,ISAD(G) - 3.1.3,,,,Record - hasOrHadLocation,
+AR,DOAD,Denominazione,Place name,ISAD(G) - 3.1.3,,,,,
+AR,DOAA,Latitudine,Latitude,ISAD(G) - 3.1.3,,,,,
+AR,DOAO,Longitudine,Longitude,ISAD(G) - 3.1.3,,,,,
+AR,DOE,Epoca/Periodo,Epoch/Period,ISAD(G) - 3.1.3,,,,Record - date (period),
+AR,HOL,Soggetto conservatore,Holding institution,ISAD(G) - 3.5.1,,,,Record - isHeldBy (? Agent),Link to HO card
+AR,HON,Denominazione,Name,ISAD(G) - 3.5.1,,,,Record - isHeldBy (? Agent),
+AR,HOK,Codice identificativo,Identification code,ISAD(G) - 3.5.1,,,,Record - isHeldBy (? Agent),
+AR,HOP,Collocazione,Placement,ISAD(G) - 3.5.1,,,,Record - isHeldBy (? Agent),
+AR,RED,Descrizione documentazione,Resource description,,,,,,Section (header)
+AR,REF,Fondo di appartenenza,Fond,ISAD(G) - 3.5.3,,,,Record - isPartOf,
+AR,REL,Livello archivistico superiore,Higher archival level,ISAD(G) - 3.5.3,,,,Record - isPartOf,
+AR,REG,Descrizione generale,General description,ISAD(G) - 3.3.1,,,,Record - scopeAndContent,
+AR,REP,Descrizione fisica,Physical description,ISAD(G) - 3.4.4,,,,Record - physicalCharacteristics,
+AR,KEY,Keyword / Tag,Keyword / Tag,,,Rep.,,Record - subject,
+AR,ACC,Condizioni che regolano l'accesso,Conditions governing access,ISAD(G) - 3.4.1,,,,Record - conditionsOfAccess,
+AR,RER,Condizioni che regolano la riproduzione,Conditions governing reproduction,ISAD(G) - 3.4.2,,,,Record - conditionsOfUse,
+AR,OPE,Altre persone,Other persons,,,,,,Section (header)
+AR,OPES,Cognome,Surname,,,,,,Subfield
+AR,OPEN,Nome,Name,,,,,,Subfield
+AR,OPEK,Codice identificativo,Identification code,,,,,,Subfield
+AR,DOA,Altre date,Other dates,ISAD(G) - 3.1.3,,Rep.,,Record - date,
+AR,DOAS,Descrizione,Description,ISAD(G) - 3.1.3,,,,,
+AR,DOAD,Data,Date,ISAD(G) - 3.1.3,,,,,
+AR,POA,Altri luoghi,Other places,,,Rep.,,Record - place,
+AR,POAS,Descrizione,Description,,,,,,
+AR,POAP,Luogo,Place,,,,,,
+AR,POAA,Latitudine,Latitude,,,,,,
+AR,POAO,Longitudine,Longitude,,,,,,
+AR,POAI,Indirizzo completo,Complete address,,,,,,
+AR,COD,Altri codici,Other codes,,,Rep.,,Record - identifier (alt.),
+AR,CODK,Codice identificativo,Identification code,,,,,,
+AR,CODD,Descrizione,Description,,,,,,
+AR,CODL,Link,Link,,,,,,
+AR,LNK,Altri link,Other links,,,Rep.,,,
+AR,LNKD,Descrizione,Description,,,,,,
+AR,LNKL,Link,Link,,,,,,
+AR,BIB,Bibliografia,Bibliography,ISAD(G) - 3.5.4,,Rep.,,Record - relatedResource,
+AR,BIBD,Descrizione,Description,ISAD(G) - 3.5.4,,,,,
+AR,BIBL,Link,Link,ISAD(G) - 3.5.4,,,,,
+AR,CMZ,Compilazione,Data entry,ISAD(G) - 3.7.3,,,,Record - recordCreationDate,
+AR,CMZD,Data,Date,ISAD(G) - 3.7.3,,,,,
+AR,CMZN,Nome utente,User's name,ISAD(G) - 3.7.3,,,,,
+AR,CMZC,Codice utente,User's code,ISAD(G) - 3.7.3,,,,,
+AR,AGR,Ultimo aggiornamento,Last update,ISAD(G) - 3.7.3,,,,Record - recordModificationDate,
+AR,AGRD,Data,Date,ISAD(G) - 3.7.3,,,,,
+AR,AGRN,Nome utente,User's name,ISAD(G) - 3.7.3,,,,,
+AR,AGRC,Codice utente,User's code,ISAD(G) - 3.7.3,,,,,
+AR,OSS,Appunti,General notes,ISAD(G) - 3.6.1,,,,Record - note,
+AR,OSN,Note dell'archivista,Archivist's note,ISAD(G) - 3.7.1,,,,Record - note,
+AR,DOC,Allegati,Attachments,,,Rep.,,Record - hasInstantiation (? Instantiation),
+AR,DOCN,Titolo,Title,,,,,,
+AR,DOCD,Descrizione,Description,,,,,,
+AR,DOCL,Caricamento,Loading,,,,,,
+AR,COR,Entit√† correlate,Related entities,ISAD(G) - 3.5.3,,Rep.,,Record - isRelatedTo,
+AR,CORT,Tipo scheda,Catalogue card type,ISAD(G) - 3.5.3,,,,,
+AR,CORK,Codice identificativo entit√†,Entity identification code,ISAD(G) - 3.5.3,,,,,
+AR,CORD,Descrizione relazione,Relation description,ISAD(G) - 3.5.3,,,,,
+CR,TSK,Tipo scheda,Catalogue card type,,,,,,Technical field
+CR,IDK,Codice univoco,Identification code,ISAAR(CPF) - 5.1.6,,,Obl.,Agent - identifier,
+CR,VSV,Visibile (pubblicabile online),Visibility (online),,,,Obl.,,Technical field
+CR,ENT,Tipologia entit√†,Type of entity,ISAAR(CPF) - 5.1.1,,,Obl.,Agent - agentType,
+CR,APP,Denominazione,Appellation,,,,,,Section (header)
+CR,APA,Denominazione,Appellation,ISAAR(CPF) - 5.1.2,,,Obl.,Agent - name,
+CR,APK,Codice Identificativo,Identification code,,,,,,Link to PE card (if person)
+CR,APF,Forme parallele della denominazione,Parallel forms of appellation,ISAAR(CPF) - 5.1.3,,Rep.,,Agent - name (parallel),
+CR,APFS,Denominazione,Appellation,ISAAR(CPF) - 5.1.3,,,,,
+CR,APFL,Lingua,Language,ISAAR(CPF) - 5.1.3,,,,Agent - language,
+CR,CHR,Estremi cronologici,Chronological details,,,,,,Section (header)
+CR,DOB,Estremo cronologico remoto,From,ISAAR(CPF) - 5.2.1,,,,Agent - dateOfBirth,
+CR,DOS,Specifiche estremo remoto,Details,ISAAR(CPF) - 5.2.1,,,,,
+CR,DOD,Estremo cronologico recente,To,ISAAR(CPF) - 5.2.1,,,,Agent - dateOfDeath,
+CR,DOT,Specifiche estremo recente,Details,ISAAR(CPF) - 5.2.1,,,,,
+CR,DOE,Epoca/Periodo,Epoch/Period,ISAAR(CPF) - 5.2.1,,,,Agent - date (period),
+CR,PLC,Luoghi,Places,ISAAR(CPF) - 5.2.3,,Rep.,,Agent - hasOrHadLocation,
+CR,PLCS,Descrizione,Description,ISAAR(CPF) - 5.2.3,,,,,
+CR,PLCP,Luogo,Place,ISAAR(CPF) - 5.2.3,,,,,
+CR,PLCA,Latitudine,Latitude,ISAAR(CPF) - 5.2.3,,,,,
+CR,PLCO,Longitudine,Longitude,ISAAR(CPF) - 5.2.3,,,,,
+CR,PLCI,Indirizzo completo,Complete address,ISAAR(CPF) - 5.2.3,,,,,
+CR,INF,Informazioni generali,General information,,,,,,Section (header)
+CR,HIS,Storia,History,ISAAR(CPF) - 5.2.2,,,,Agent - history,
+CR,FOA,"Funzioni, occupazioni e attivit√†","Functions, occupations and activities",ISAAR(CPF) - 5.2.5,,,,Agent - hasOccupation,
+CR,ISG,Struttura amministrativa/Genealogia,Internal structures/Genealogy,ISAAR(CPF) - 5.2.7,,,,Agent - hasOrHadStructuralPart,
+CR,GEC,Contesto generale,General context,ISAAR(CPF) - 5.2.8,,,,Agent - generalContext,
+CR,DOA,Altre date,Other dates,ISAAR(CPF) - 5.2.1,,Rep.,,Agent - date,
+CR,DOAS,Descrizione,Description,ISAAR(CPF) - 5.2.1,,,,,
+CR,DOAD,Data,Date,ISAAR(CPF) - 5.2.1,,,,,
+CR,POA,Altri luoghi,Other places,ISAAR(CPF) - 5.2.3,,Rep.,,Agent - hasOrHadLocation,
+CR,POAS,Descrizione,Description,ISAAR(CPF) - 5.2.3,,,,,
+CR,POAP,Luogo,Place,ISAAR(CPF) - 5.2.3,,,,,
+CR,POAA,Latitudine,Latitude,ISAAR(CPF) - 5.2.3,,,,,
+CR,POAO,Longitudine,Longitude,ISAAR(CPF) - 5.2.3,,,,,
+CR,POAI,Indirizzo completo,Complete address,ISAAR(CPF) - 5.2.3,,,,,
+CR,BIB,Bibliografia,Bibliography,ISAAR(CPF) - 5.4.8,,Rep.,,Agent - relatedResource,
+CR,BIBD,Descrizione,Description,ISAAR(CPF) - 5.4.8,,,,,
+CR,BIBL,Link,Link,ISAAR(CPF) - 5.4.8,,,,,
+CR,LNK,Altri link,Other links,,,Rep.,,,
+CR,LNKD,Descrizione,Description,,,,,,
+CR,LNKL,Link,Link,,,,,,
+CR,CMZ,Compilazione,Data entry,ISAAR(CPF) - 5.4.6,,,,Agent - recordCreationDate,
+CR,CMZD,Data,Date,ISAAR(CPF) - 5.4.6,,,,,
+CR,CMZN,Nome utente,User's name,ISAAR(CPF) - 5.4.6,,,,,
+CR,CMZC,Codice utente,User's code,ISAAR(CPF) - 5.4.6,,,,,
+CR,AGR,Ultimo aggiornamento,Last update,ISAAR(CPF) - 5.4.6,,,,Agent - recordModificationDate,
+CR,AGRD,Data,Date,ISAAR(CPF) - 5.4.6,,,,,
+CR,AGRN,Nome utente,User's name,ISAAR(CPF) - 5.4.6,,,,,
+CR,AGRC,Codice utente,User's code,ISAAR(CPF) - 5.4.6,,,,,
+CR,OSS,Appunti,General notes,ISAAR(CPF) - 5.4.9,,,,Agent - note,
+CR,DOC,Allegati,Attachments,,,Rep.,,Agent - hasInstantiation (? Instantiation),
+CR,DOCN,Titolo,Title,,,,,,
+CR,DOCD,Descrizione,Description,,,,,,
+CR,DOCL,Caricamento,Loading,,,,,,
+CR,COR,Entit√† correlate,Related entities,,,Rep.,,Agent - isRelatedTo,
+CR,CORT,Tipo scheda,Catalogue card type,,,,,,
+CR,CORK,Codice identificativo entit√†,Entity identification code,,,,,,
+CR,CORD,Descrizione relazione,Relation description,,,,,,
+HO,TSK,Tipo scheda,Catalogue card type,,,,,,Technical field
+HO,IDK,Codice univoco,Identification code,ISDIAH - 5.1.1,,,Obl.,Agent - identifier,
+HO,VSV,Visibile (pubblicabile online),Visibility (online),,,,Obl.,,Technical field
+HO,ENT,Tipologia entit√†,Type of entity,ISDIAH - 5.1.6,,,Obl.,Agent - agentType,
+HO,APP,Denominazione,Appellation,,,,,,Section (header)
+HO,APA,Denominazione,Appellation,ISDIAH - 5.1.2,,,Obl.,Agent - name,
+HO,APK,Codice Identificativo,Identification code,,,,,,Link to PE card (if person)
+HO,APF,Forme parallele della denominazione,Parallel forms of appellation,ISDIAH - 5.1.3,,Rep.,,Agent - name (parallel),
+HO,APFS,Denominazione,Appellation,ISDIAH - 5.1.3,,,,,
+HO,APFL,Lingua,Language,ISDIAH - 5.1.3,,,,Agent - language,
+HO,PLC,Luoghi,Places,ISDIAH - 5.2.1,,Rep.,,Agent - hasOrHadLocation,
+HO,PLCS,Descrizione,Description,ISDIAH - 5.2.1,,,,,
+HO,PLCP,Luogo,Place,ISDIAH - 5.2.1,,,,,
+HO,PLCA,Latitudine,Latitude,ISDIAH - 5.2.1,,,,,
+HO,PLCO,Longitudine,Longitude,ISDIAH - 5.2.1,,,,,
+HO,PLCI,Indirizzo completo,Complete address,ISDIAH - 5.2.1,,,,,
+HO,INF,Informazioni generali,General information,,,,,,Section (header)
+HO,HIS,Storia dell'istituto conservatore di archivi,History of the institution with archival holdings,ISDIAH - 5.3.1,,,,Agent - history,
+HO,GCC,Contesto territoriale e culturale,Geographical and cultural context,ISDIAH - 5.3.2,,,,Agent - generalContext,
+HO,RMC,Politiche di gestione documentaria e di acquisizione,Records management and collecting policies,ISDIAH - 5.3.5,,,,Agent - recordsManagementPolicy,
+HO,AOH,Patrimonio archivistico ed altri materiali conservati,Archival and other holdings,ISDIAH - 5.3.7,,Rep.,,Agent - hasOrHadHoldings,
+HO,CRA,Condizioni e requisiti per l'accesso e l'uso,Conditions and requirements for access and use,ISDIAH - 5.4.2,,,,Agent - conditionsOfAccess,
+HO,WEB,Sito web,Website,ISDIAH - 5.2.1,,,,Agent - hasOnlinePresence,
+HO,EMA,Email,Email,ISDIAH - 5.2.2,,,,Agent - contactPoint,
+HO,BIB,Bibliografia,Bibliography,ISDIAH - 5.3.8,,Rep.,,Agent - relatedResource,
+HO,BIBD,Descrizione,Description,ISDIAH - 5.3.8,,,,,
+HO,BIBL,Link,Link,ISDIAH - 5.3.8,,,,,
+HO,LNK,Altri link,Other links,,,Rep.,,,
+HO,LNKD,Descrizione,Description,,,,,,
+HO,LNKL,Link,Link,,,,,,
+HO,CMZ,Compilazione,Data entry,ISDIAH - 5.6.6,,,,Agent - recordCreationDate,
+HO,CMZD,Data,Date,ISDIAH - 5.6.6,,,,,
+HO,CMZN,Nome utente,User's name,ISDIAH - 5.6.6,,,,,
+HO,CMZC,Codice utente,User's code,ISDIAH - 5.6.6,,,,,
+HO,AGR,Ultimo aggiornamento,Last update,ISDIAH - 5.6.6,,,,Agent - recordModificationDate,
+HO,AGRD,Data,Date,ISDIAH - 5.6.6,,,,,
+HO,AGRN,Nome utente,User's name,ISDIAH - 5.6.6,,,,,
+HO,AGRC,Codice utente,User's code,ISDIAH - 5.6.6,,,,,
+HO,OSS,Appunti,General notes,ISDIAH - 5.6.9,,,,Agent - note,
+HO,DOC,Allegati,Attachments,,,Rep.,,Agent - hasInstantiation (? Instantiation),
+HO,DOCN,Titolo,Title,,,,,,
+HO,DOCD,Descrizione,Description,,,,,,
+HO,DOCL,Caricamento,Loading,,,,,,
+HO,COR,Entit√† correlate,Related entities,,,Rep.,,Agent - isRelatedTo,
+HO,CORT,Tipo scheda,Catalogue card type,,,,,,
+HO,CORK,Codice identificativo entit√†,Entity identification code,,,,,,
+HO,CORD,Descrizione relazione,Relation description,,,,,,
+PE,TSK,Tipo scheda,Catalogue card type,,,,,,Technical field
+PE,IDK,Codice univoco,Identification code,ISAAR(CPF) - 5.1.6,Person code,,Obl.,Person - identifier,
+PE,VSV,Visibile (pubblicabile online),Visibility (online),,,,Obl.,,Technical field
+PE,APP,Denominazione,Appellation,,,,,,Section (header)
+PE,APS,Cognome,Surname,ISAAR(CPF) - 5.1.2,,,Obl.,Person - name (surname),
+PE,APN,Nome,Name,ISAAR(CPF) - 5.1.2,,,,Person - name (given name),
+PE,APA,Pseudonimo/Anonimizzazione,Pseudonymised/Anonymised,ISAAR(CPF) - 5.1.5,Pseudonymised / Anonymised,Rep.,,Person - name (pseudonym),
+PE,APAN,Denominazione,Name,ISAAR(CPF) - 5.1.5,,,,Person - name (pseudonym),
+PE,APAC,Categoria,Category,ISAAR(CPF) - 5.1.5,,,,Person - name (category),
+PE,APF,Forme parallele del nome,Parallel forms of name,ISAAR(CPF) - 5.1.3,,Rep.,,Person - name (parallel),
+PE,APFS,Cognome,Surname,ISAAR(CPF) - 5.1.3,,,,,
+PE,APFN,Nome,Name,ISAAR(CPF) - 5.1.3,,,,,
+PE,APFL,Lingua,Language,ISAAR(CPF) - 5.1.3,,,,Person - language,
+PE,INF,Informazioni generali,General information,,,,,,Section (header)
+PE,OCC,Professione,Occupation,ISAAR(CPF) - 5.2.5,Primary occupation,Rep.,,Person - hasOccupation,
+PE,ETN,Comunit√† di appartenenza,Foreign community,ISAAR(CPF) - 5.2.2,Ethnic community,,,Person - hasAffiliation,
+PE,ING,Genere,Gender,ISAAR(CPF) - 5.2.2,Gender,,,Person - hasGender,
+PE,INL,Lingua,Language,ISAAR(CPF) - 5.4.7,,,,Person - language,
+PE,INLP,Lingua primaria,Primary language,ISAAR(CPF) - 5.4.7,Primary language,,,Person - language (primary),
+PE,INLO,Altre lingue,Other language,ISAAR(CPF) - 5.4.7,Other language,Rep.,,Person - language (other),
+PE,CHR,Estremi cronologici,Chronological details,,,,,,Section (header)
+PE,DOB,Data di nascita,Date of birth,ISAAR(CPF) - 5.2.1,Date of birth,,,Person - dateOfBirth,
+PE,DOS,Specifiche della data di nascita,Date of birth details,ISAAR(CPF) - 5.2.1,,,,,
+PE,DOD,Data di morte,Date of death,ISAAR(CPF) - 5.2.1,Date of death,,,Person - dateOfDeath,
+PE,DOT,Specifiche della data di nascita,Date of death details,ISAAR(CPF) - 5.2.1,,,,,
+PE,POB,Luogo di nascita,Place of birth,ISAAR(CPF) - 5.2.3,,,,Person - placeOfBirth,
+PE,POBD,Denominazione,Place,ISAAR(CPF) - 5.2.3,,,,,
+PE,POBA,Latitudine,Latitude,ISAAR(CPF) - 5.2.3,,,,,
+PE,POBO,Longitudine,Longitude,ISAAR(CPF) - 5.2.3,,,,,
+PE,POD,Luogo di morte,Place of death,ISAAR(CPF) - 5.2.3,,,,Person - placeOfDeath,
+PE,PODD,Denominazione,Place,ISAAR(CPF) - 5.2.3,,,,,
+PE,PODA,Latitudine,Latitude,ISAAR(CPF) - 5.2.3,,,,,
+PE,PODO,Longitudine,Longitude,ISAAR(CPF) - 5.2.3,,,,,
+PE,DOA,Altre date,Other dates,ISAAR(CPF) - 5.2.1,,Rep.,,Person - date,
+PE,DOAS,Descrizione,Description,ISAAR(CPF) - 5.2.1,,,,,
+PE,DOAD,Data,Date,ISAAR(CPF) - 5.2.1,,,,,
+PE,POA,Altri luoghi,Other places,ISAAR(CPF) - 5.2.3,,Rep.,,Person - hasOrHadLocation,
+PE,POAS,Descrizione,Description,ISAAR(CPF) - 5.2.3,,,,,
+PE,POAP,Luogo,Place,ISAAR(CPF) - 5.2.3,,,,,
+PE,POAA,Latitudine,Latitude,ISAAR(CPF) - 5.2.3,,,,,
+PE,POAO,Longitudine,Longitude,ISAAR(CPF) - 5.2.3,,,,,
+PE,POAI,Indirizzo completo,Complete address,ISAAR(CPF) - 5.2.3,,,,,
+PE,BIO,Biografia,Biography,ISAAR(CPF) - 5.2.2,,,,Person - history,
+PE,BION,Note biografiche,Biographical notes,ISAAR(CPF) - 5.2.2,,,,,
+PE,BIOF,Fonte,Source,ISAAR(CPF) - 5.2.2,,,,,
+PE,REL,Relazioni,Relations,ISAAR(CPF) - 5.2.7,,,,Person - isRelatedTo,
+PE,REI,Informazioni sulla relazione,Relation info,ISAAR(CPF) - 5.2.7,,,,,
+PE,REIT,Tipo di relazione,Relations type,ISAAR(CPF) - 5.2.7,,,,Person - relationshipType,
+PE,REIS,Cognome,Surname,ISAAR(CPF) - 5.2.7,,,,,
+PE,REIN,Nome,Name,ISAAR(CPF) - 5.2.7,,,,,
+PE,REIK,Codice identificativo,Identification code,ISAAR(CPF) - 5.2.7,,,,,Link to PE card
+PE,COD,Altri codici,Other codes,ISAAR(CPF) - 5.1.6,,Rep.,,Person - identifier (alt.),
+PE,CODK,Codice identificativo,Identification code,ISAAR(CPF) - 5.1.6,,,,,
+PE,CODP,Permalink,Permalink,ISAAR(CPF) - 5.1.6,,,,,
+PE,CODS,Standard,Standard,ISAAR(CPF) - 5.1.6,,,,,
+PE,BIB,Bibliografia,Bibliography,ISAAR(CPF) - 5.4.8,,Rep.,,Person - relatedResource,
+PE,BIBD,Descrizione,Description,ISAAR(CPF) - 5.4.8,,,,,
+PE,BIBL,Link,Link,ISAAR(CPF) - 5.4.8,,,,,
+PE,LNK,Altri link,Other links,,,Rep.,,,
+PE,LNKD,Descrizione,Description,,,,,,
+PE,LNKL,Link,Link,,,,,,
+PE,CMZ,Compilazione,Data entry,ISAAR(CPF) - 5.4.6,,,,Person - recordCreationDate,
+PE,CMZD,Data,Date,ISAAR(CPF) - 5.4.6,,,,,
+PE,CMZN,Nome utente,User's name,ISAAR(CPF) - 5.4.6,,,,,
+PE,CMZC,Codice utente,User's code,ISAAR(CPF) - 5.4.6,,,,,
+PE,AGR,Ultimo aggiornamento,Last update,ISAAR(CPF) - 5.4.6,,,,Person - recordModificationDate,
+PE,AGRD,Data,Date,ISAAR(CPF) - 5.4.6,,,,,
+PE,AGRN,Nome utente,User's name,ISAAR(CPF) - 5.4.6,,,,,
+PE,AGRC,Codice utente,User's code,ISAAR(CPF) - 5.4.6,,,,,
+PE,OSS,Appunti,General notes,ISAAR(CPF) - 5.4.9,,,,Person - note,
+PE,DOC,Allegati,Attachments,,,Rep.,,Person - hasInstantiation (? Instantiation),
+PE,DOCN,Titolo,Title,,,,,,
+PE,DOCD,Descrizione,Description,,,,,,
+PE,DOCL,Caricamento,Loading,,,,,,
+PE,COR,Entit√† correlate,Related entities,,,Rep.,,Person - isRelatedTo,
+PE,CORT,Tipo scheda,Catalogue card type,,,,,,
+PE,CORK,Codice identificativo entit√†,Entity identification code,,,,,,
+PE,CORD,Descrizione relazione,Relation description,,,,,,
